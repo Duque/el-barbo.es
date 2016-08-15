@@ -1,0 +1,65 @@
+article 
+{
+	h1 {
+		font-size: $font-size-h2;
+		margin-top:0px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+}
+
+//CABECERA
+.rd_cabecera {
+	margin-bottom: $grid-gutter-width;
+}
+//Logo
+.rd_logo {
+	display: block;
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	margin:$grid-gutter-width;
+	text-indent: -9999px;
+	background: url('images/logo.jpg');
+	-moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-position:center;
+  background-size: 140%;
+  box-shadow: 0px 0px 6px #fff;
+}
+
+//ASIDE
+.list-group .menu-item {
+	@extend .list-group-item;
+}
+
+//COMENTARIOS
+.comentarios {
+
+	label {
+		display: block;
+		clear: both;
+	}
+
+	.comment-body {
+		p {
+
+			font-size: 1.5em;
+			}
+		}
+
+	.comment-reply-link, .comment-respond a {
+		@extend .btn;
+		@extend .btn-xs;
+		margin-bottom: $grid-gutter-width;
+	}
+
+	.comment-reply-link {
+		@extend .btn-default;
+	}
+
+
+}
