@@ -5,20 +5,19 @@
 	
   <div class="row">	
     <section class="col-xs-12 col-sm-8">
-
-    <div class="panel panel-default rd_titular-seccion">
-      <div class="panel-heading">
-        <h1><small>Artículos de pesca en la categoría</small><br> <?php single_cat_title(); ?></h1>
-      </div>
-    </div>
-
+      
+      <div class="panel panel-default rd_titular-seccion">
+			  <div class="panel-heading">
+			    <h1><small>Artículos de pesca de </small><br> <?php echo get_the_author(); ?></h1>
+			  </div>
+			</div>
+			
       <!-- Listado de posts -->
       <?php if ( have_posts() ) : ?>
         <?php while ( have_posts() ) : the_post();  ?>
           
           <article>
             <div class="panel panel-default">          
-              
               <div class="panel-body">
                 <h1>
                   <a href="<?php the_permalink(); ?>" title="<?php the_title() ?>">

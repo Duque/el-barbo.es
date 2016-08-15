@@ -1,25 +1,40 @@
-article 
+.panel
 {
-	h1 {
-		font-size: $font-size-h2;
+	//Cabecera en categorías, tags, autor...
+	&.rd_titular-seccion {
+		.panel-heading {
+			border:none;
+		}
+
+		margin-bottom: 0px;
+	}
+
+	h1, h2 {
 		margin-top:0px;
 	}
 
+	//Titulares más pequeños en todos los .panel
+	h1 {
+		font-size: $font-size-h2;
+	}
+
 	img {
-		max-width: 100%;
+		max-width: 100%!important;
 	}
 }
+
 
 //CABECERA
 .rd_cabecera {
 	margin-bottom: $grid-gutter-width;
 }
+
 //Logo
 .rd_logo {
 	display: block;
 	position: absolute;
-	width: 160px;
-	height: 160px;
+	width: 100px;
+	height: 100px;
 	margin:$grid-gutter-width;
 	text-indent: -9999px;
 	background: url('images/logo.jpg');
@@ -31,11 +46,13 @@ article
   box-shadow: 0px 0px 6px #fff;
 }
 
-//ASIDE
+//ASIDE 
+//Importamos clases de bootstrap en las de Wordpress
 .list-group .menu-item {
 	@extend .list-group-item;
 }
 
+//SINGLE.PHP
 //COMENTARIOS
 .comentarios {
 
@@ -62,4 +79,11 @@ article
 	}
 
 
+}
+
+//Etiquetas*
+.label {
+	a {
+		color: white;
+	}
 }

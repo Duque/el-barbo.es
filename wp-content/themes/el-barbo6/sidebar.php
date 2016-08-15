@@ -8,5 +8,4 @@
 	</nav>
 
 
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Main Sidebar') ) : ?>
-<?php endif; ?>
+<?php dynamic_sidebar('sidebar'); ?>

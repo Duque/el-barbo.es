@@ -15,18 +15,7 @@ if ( function_exists( 'register_nav_menus' ) ) {
 }
 ?>
 
-<?php
-	//  Main Sidebar
-	if(function_exists('register_sidebar'))
-	    register_sidebar(array(
-		    'name' => 'Main Sidebar',
-		    'before_widget' => '<hr>',
-		    'after_widget' => '',
-		    'before_title' => '<h3>',
-		    'after_title' => '</h3>',
-	));
 
-?>
 
 <?php
 // Permitir comentarios encadenados
@@ -40,3 +29,19 @@ add_action('get_header', 'enable_threaded_comments');
 
 
 
+<?php
+//Zona de widgets
+function mis_widgets(){
+ register_sidebar(
+   array(
+       'name'          => __( 'Sidebar' ),
+       'id'            => 'sidebar',
+       'before_widget' => '<div class="widget">',
+       'after_widget'  => '</div>',
+       'before_title'  => '<h3>',
+       'after_title'   => '</h3>',
+   )
+ );
+}
+add_action('init','mis_widgets');
+?>

@@ -1549,19 +1549,19 @@ h6, .h6 {
 
 /* line 47, /var/www/html/el-barbo.es/dev/sass/bootstrap/_type.scss */
 h1, .h1 {
-  font-size: 46px; }
+  font-size: 36px; }
 
 /* line 48, /var/www/html/el-barbo.es/dev/sass/bootstrap/_type.scss */
 h2, .h2 {
-  font-size: 32px; }
+  font-size: 27px; }
 
 /* line 49, /var/www/html/el-barbo.es/dev/sass/bootstrap/_type.scss */
 h3, .h3 {
-  font-size: 27px; }
+  font-size: 24px; }
 
 /* line 50, /var/www/html/el-barbo.es/dev/sass/bootstrap/_type.scss */
 h4, .h4 {
-  font-size: 22px; }
+  font-size: 20px; }
 
 /* line 51, /var/www/html/el-barbo.es/dev/sass/bootstrap/_type.scss */
 h5, .h5 {
@@ -7387,25 +7387,35 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-/* line 3, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-article h1 {
-  font-size: 32px;
+/* line 4, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.panel.rd_titular-seccion {
+  margin-bottom: 0px; }
+  /* line 5, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .panel.rd_titular-seccion .panel-heading {
+    border: none; }
+
+/* line 12, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.panel h1, .panel h2 {
   margin-top: 0px; }
 
-/* line 8, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-article img {
-  max-width: 100%; }
+/* line 17, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.panel h1 {
+  font-size: 27px; }
 
-/* line 14, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 21, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.panel img {
+  max-width: 100% !important; }
+
+/* line 28, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .rd_cabecera {
   margin-bottom: 30px; }
 
-/* line 18, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 33, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .rd_logo {
   display: block;
   position: absolute;
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   margin: 30px;
   text-indent: -9999px;
   background: url("images/logo.jpg");
@@ -7416,15 +7426,19 @@ article img {
   background-size: 140%;
   box-shadow: 0px 0px 6px #fff; }
 
-/* line 42, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 59, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .comentarios label {
   display: block;
   clear: both; }
 
-/* line 48, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 65, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .comentarios .comment-body p {
   font-size: 1.5em; }
 
-/* line 54, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 71, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .comentarios .comment-reply-link, .comentarios .comment-respond a {
   margin-bottom: 30px; }
+
+/* line 86, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.label a {
+  color: white; }

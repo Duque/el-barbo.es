@@ -35,11 +35,9 @@
 				
 				<!-- La siguiente capa tiene id=logo por semántica, no contiene funcionalidad javaScript o propiedades CSS-->
 
-				<div id=”logo” class="rd_logo">
-					<h1>
-						Pesca a mosca, El-Barbo.es
-					</h1>
-				</div>
+				<h1 id=”logo” class="rd_logo">
+					Pesca a mosca, El-Barbo.es
+				</h1>
 			</a>
 
 		<div class="rd_cabecera">	

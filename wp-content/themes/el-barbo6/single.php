@@ -22,25 +22,28 @@
 
               <?php the_content() ?>
             </div>
+            <div class="panel-footer">
+              <small> Autor: <?php the_author_posts_link() ?>  el <?php the_time('j/m/Y') ?> en categorías: <?php the_category(', '); ?> </small>  
+              <?php include 'includes/etiquetas.php'; ?>
+            </div>
             
           </div>
 
-          <p><small> Autor: <?php the_author_posts_link() ?>  el <?php the_time('j/m/Y') ?>. Categoría: <?php the_category(', '); ?> </small><br>
-            </p>
+          
 
-  		   	<?php endwhile; ?>
+ 		   	<?php endwhile; ?>
 
-					<div class="comentarios">
-						<?php 
-							if ( comments_open() || get_comments_number() ) :
-								comments_template();
-							endif; ?>
-					</div>
+				<div class="comentarios">
+					<?php 
+						if ( comments_open() || get_comments_number() ) :
+							comments_template();
+						endif; ?>
+				</div>
 
 
-					<?php endif; ?>
-      	</article>
-      	<aside class="col-xs-4">
+			<?php endif; ?>
+     	</article>
+     	<aside class="col-xs-4">
       		<?php  get_sidebar()?>
       	</aside>
 		  </div>    

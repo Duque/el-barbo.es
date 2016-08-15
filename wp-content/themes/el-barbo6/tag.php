@@ -1,14 +1,69 @@
-<?php $post = $posts[0];  ?>
-	<?php  if (is_category()) { ?>
-	<?php } elseif( is_tag() ) { ?>
-		<h2>Etiqueta &amp;amp;amp;#8216;<?php single_tag_title(); ?>&amp;amp;amp;#8217;</h2>
-	<?php } elseif (is_day()) { ?>
-		<h2>Archivo para <?php the_time('F jS Y'); ?>:</h2>
-	<?php  } elseif (is_month()) { ?><h2>Archivo para <?php the_time('F, Y'); ?>:</h2>
-	<?php } elseif (is_year()) { ?>
-		<h2>Archivo para <?php the_time('Y'); ?>:</h2>
-	<?php /} elseif (is_author()) { ?>
-		<h2>Archivo del autor </h2>
-	<?php } elseif (isset($_GET['paged']) &amp;amp;amp;&amp;amp;amp; !empty($_GET['paged'])) { ?>
-		<h2>Archivos del blog</h2>
-<?php } ?>
+<!-- Archivo de cabecera global de Wordpress -->
+<?php get_header(); ?>
+
+<div class="container">
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<h2>Categoría: <?php single_cat_title(); ?></h2>		
+		</div>
+	</div>
+
+  <div class="row">	
+    <section class="col-xs-12 col-sm-8">
+      
+      <!-- Listado de posts -->
+      <?php if ( have_posts() ) : ?>
+        <?php while ( have_posts() ) : the_post();  ?>
+          
+          <article>
+            <div class="panel panel-default">          
+              <div class="panel-body">
+                <h1>
+                  <a href="<?php the_permalink(); ?>" title="<?php the_title() ?>">
+                    <?php the_title() ?>
+                  </a>
+                </h1>
+                <?php the_content() ?>
+              </div>
+            </div>
+          </article>
+
+        <?php endwhile; ?>
+
+          <!-- Paginación -->
+          <nav aria-label="Page navigation">
+            <ul class="pagination">
+              <li>
+                <span aria-hidden="true">
+                  <?php next_posts_link('« Ver anteriores'); ?>
+                </span>
+              </li>
+              <li>
+                <span aria-hidden="true">
+                  <?php previous_posts_link('Ver posteriores'); ?> >>
+                </span>
+              </li>
+            </ul>
+
+            <?php paginate_links() ?>
+
+            
+        <?php else: ?>
+          <p>Vaya, no hay entradas.</p>
+        <?php endif; ?>
+
+
+    </section>
+    <aside class="col-xs-12 col-sm-4">
+      <!-- Archivo de barra lateral por defecto -->
+      <?php get_sidebar(); ?>
+    </aside>
+  </div>
+ 
+
+</div>
+
+
+<!-- Archivo de pié global de Wordpress -->
+<?php get_footer(); ?>
