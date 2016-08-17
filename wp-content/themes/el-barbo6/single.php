@@ -35,7 +35,6 @@
           <meta itemprop="image" content="<?php the_post_thumbnail_url(); ?>">
           <meta itemprop="url" content="<?php the_permalink(); ?>">
           <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-          <meta itemprop="name" content="sublime"></span>
           
 
  		   	<?php endwhile; ?>

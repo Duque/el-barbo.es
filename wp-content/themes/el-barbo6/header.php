@@ -18,8 +18,13 @@
 
 </head>
 <body>
+
+	<!-- Analytics -->
+	<?php include_once("analyticstracking.php") ?>
+	<!-- -->
+
 	<header>
-		<nav id="rd_main-menu" class="navbar navbar-default" role="navigation">
+		<nav id="rd_main-menu" class="navbar navbar-default" role="navigation" itemscope itemtype="http://schema.org/ItemList">
 			<div class="container">
 				<div class="navbar-header">
 					

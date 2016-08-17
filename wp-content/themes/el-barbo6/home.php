@@ -9,11 +9,11 @@
       <?php if ( have_posts() ) : ?>
         <?php while ( have_posts() ) : the_post();  ?>
           
-          <article>
+          <article  itemscope itemtype="http://schema.org/Article">
             <div class="panel panel-default">          
-              <div class="panel-body">
+              <div class="panel-body"  itemprop="articleBody">
                 <h1>
-                  <a href="<?php the_permalink(); ?>" title="<?php the_title() ?>">
+                  <a href="<?php the_permalink(); ?>" title="<?php the_title() ?>" itemprop="name">
                     <?php the_title() ?>
                   </a>
                 </h1>

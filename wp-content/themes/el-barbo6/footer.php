@@ -1,6 +1,7 @@
 <footer>
 	<div class="container">
-		<nav id="rd_secondary-menu" class="navbar navbar-default" role="navigation">
+	</nav>
+		<nav id="rd_secondary-menu" class="navbar navbar-default" role="navigation" itemscope itemtype="http://schema.org/ItemList">
 			<?php 
 				wp_nav_menu( array( 
 					'theme_location' => 'inferior',
