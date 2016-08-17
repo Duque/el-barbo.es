@@ -1,5 +1,42 @@
+
+
+
+
+//MENÚS
+//Propiedades generales de los navbar
+nav {
+
+}
+
+//SOLO Menú Principal
+nav#rd_main-menu {
+	padding-top: 10px;
+	border-bottom: 1px solid $brand-primary;
+	
+
+	.rd_form_buscar {
+		display: block;
+	}
+
+	.current-menu-item {
+		background: $brand-primary;
+
+		a {
+			color:white;
+		}
+	}
+}
+
+//SOLO Menú Secundario
+nav#rd_secondary-menu {
+
+}
+
+//PANELES
 .panel
 {
+	overflow: hidden;
+
 	//Cabecera en categorías, tags, autor...
 	&.rd_titular-seccion {
 		.panel-heading {
@@ -15,7 +52,7 @@
 
 	//Titulares más pequeños en todos los .panel
 	h1 {
-		font-size: $font-size-h2;
+		//font-size: $font-size-h2;
 	}
 
 	img {
@@ -46,27 +83,38 @@
   box-shadow: 0px 0px 6px #fff;
 }
 
+
 //ASIDE 
 //Importamos clases de bootstrap en las de Wordpress
 .list-group .menu-item {
 	@extend .list-group-item;
 }
 
+.social {
+	font-size : 3em;
+}
+
+
 //SINGLE.PHP
+.rd_entrada-relacionada {
+
+	p {
+		margin-top:10px;
+		width: 107%;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	}
+
+}
+
 //COMENTARIOS
-.comentarios {
+.rd_comentarios {
 
 	label {
 		display: block;
 		clear: both;
 	}
-
-	.comment-body {
-		p {
-
-			font-size: 1.5em;
-			}
-		}
 
 	.comment-reply-link, .comment-respond a {
 		@extend .btn;
@@ -87,3 +135,79 @@
 		color: white;
 	}
 }
+
+
+//RESPONSIVE
+// DEVICE LIST //
+$xs-min: "only screen and (min-width:none)";
+$xs-max: "only screen and (max-width:520px)";
+$xs-sm: "only screen (min-width: none) and (max-width:767px)";
+
+$sm-min: "only screen and (min-width:768px)";
+$sm-max: "only screen and (max-width:991px)";
+$sm-md: "only screen (min-width: 768px) and (max-width:991px)";
+
+$md-min: "only screen and (min-width:992px)";
+$md-max: "only screen and (max-width:1199px)";
+$md-lg: "only screen (min-width: 992px) and (max-width:1199px)";
+
+$lg-min: "only screen and (min-width:1200px)";
+$lg-max: "only screen and (max-width:none)";
+
+@media #{$xs-sm} {
+	.rd_form_buscar {
+		margin-top: 0px;			
+	}
+}
+
+@media #{$sm-max} { 
+
+	.rd_entrada-relacionada {
+
+		max-height:200px;
+
+		img {
+			width: 100%;
+			height: 105px;
+		}
+	}
+
+}
+
+@media #{$xs-sm} {
+	.rd_entrada-relacionada {
+
+		max-height:260px;
+
+		img {
+			width: 100%;
+			height: 160px;
+		}
+	}
+}
+
+@media #{$sm-min} { 
+	.rd_form_buscar {
+		float: right;		
+	}
+
+}
+
+@media #{$md-min} { 
+
+	.rd_entrada-relacionada:last-child {
+		display: none;
+	}
+
+	.rd_entrada-relacionada {
+
+		max-height:200px;
+
+		img {
+			width: 100%;
+			height: 110px;
+		}
+	}
+}
+
+

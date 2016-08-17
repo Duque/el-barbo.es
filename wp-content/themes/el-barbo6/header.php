@@ -19,23 +19,54 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-default">
-			<?php 
-				wp_nav_menu( array( 
-					'theme_location' => 'principal',
-					'menu_class' => 'nav navbar-nav',
-					'container' => 'div',
-					'container_class' => 'container'
-				) ); 
-			?>
+		<nav id="rd_main-menu" class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#rd_menu-principal-collapse" aria-expanded="false">
+	        	<span class="sr-only">Toggle navigation</span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	      	</button>	
+
+				</div>
+
+				<div class="collapse navbar-collapse" id="rd_menu-principal-collapse">
+
+					<form class="form-inline rd_form_buscar">
+		        <div class="form-group">
+		        	
+		        	<div class="input-group">
+					      <input type="search" size="15" class="form-control" placeholder="Buscar">
+					      <div class="input-group-addon">
+					      	<a href="#">Buscar</a>
+					      </div>
+					    </div>
+	 	  		  </div>
+	  		    
+		    	</form>	
+
+					<?php 
+						wp_nav_menu( array( 
+							'theme_location' => 'principal',
+							'menu_class' => 'nav navbar-nav',
+							'container' => '',
+							'container_class' => ''
+						) ); 
+					?>
+
+					
+
+				</div>
+			</div>
+
 		</nav>
 
 		<div class="container">
 			<a href="http://localhost/el-barbo.es" title="Ir a la página de inicio">
 				
-				<!-- La siguiente capa tiene id=logo por semántica, no contiene funcionalidad javaScript o propiedades CSS-->
-
-				<h1 id=”logo” class="rd_logo">
+				<h1 class="rd_logo">
 					Pesca a mosca, El-Barbo.es
 				</h1>
 			</a>

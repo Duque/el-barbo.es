@@ -284,9 +284,9 @@ th {
   .navbar {
     display: none; }
   /* line 77, /var/www/html/el-barbo.es/dev/sass/bootstrap/_print.scss */
-  .btn > .caret, .comentarios .comment-reply-link > .caret, .comentarios .comment-respond a > .caret,
-  .dropup > .btn > .caret, .comentarios
-  .dropup > .comment-reply-link > .caret, .comentarios .comment-respond
+  .btn > .caret, .rd_comentarios .comment-reply-link > .caret, .rd_comentarios .comment-respond a > .caret,
+  .dropup > .btn > .caret, .rd_comentarios
+  .dropup > .comment-reply-link > .caret, .rd_comentarios .comment-respond
   .dropup > a > .caret {
     border-top-color: #000 !important; }
   /* line 81, /var/www/html/el-barbo.es/dev/sass/bootstrap/_print.scss */
@@ -3060,14 +3060,14 @@ input[type="search"] {
   /* line 197, /var/www/html/el-barbo.es/dev/sass/bootstrap/_forms.scss */
   input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
   .input-group-sm > input[type="date"].input-group-addon,
-  .input-group-sm > .input-group-btn > input[type="date"].btn, .comentarios
+  .input-group-sm > .input-group-btn > input[type="date"].btn, .rd_comentarios
   .input-group-sm > .input-group-btn > input[type="date"].comment-reply-link,
   .input-group-sm input[type="date"],
   input[type="time"].input-sm,
   .input-group-sm > input[type="time"].form-control,
   .input-group-sm > input[type="time"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="time"].btn,
-  .comentarios
+  .rd_comentarios
   .input-group-sm > .input-group-btn > input[type="time"].comment-reply-link,
   .input-group-sm
   input[type="time"],
@@ -3075,7 +3075,7 @@ input[type="search"] {
   .input-group-sm > input[type="datetime-local"].form-control,
   .input-group-sm > input[type="datetime-local"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="datetime-local"].btn,
-  .comentarios
+  .rd_comentarios
   .input-group-sm > .input-group-btn > input[type="datetime-local"].comment-reply-link,
   .input-group-sm
   input[type="datetime-local"],
@@ -3083,7 +3083,7 @@ input[type="search"] {
   .input-group-sm > input[type="month"].form-control,
   .input-group-sm > input[type="month"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="month"].btn,
-  .comentarios
+  .rd_comentarios
   .input-group-sm > .input-group-btn > input[type="month"].comment-reply-link,
   .input-group-sm
   input[type="month"] {
@@ -3091,14 +3091,14 @@ input[type="search"] {
   /* line 202, /var/www/html/el-barbo.es/dev/sass/bootstrap/_forms.scss */
   input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
   .input-group-lg > input[type="date"].input-group-addon,
-  .input-group-lg > .input-group-btn > input[type="date"].btn, .comentarios
+  .input-group-lg > .input-group-btn > input[type="date"].btn, .rd_comentarios
   .input-group-lg > .input-group-btn > input[type="date"].comment-reply-link,
   .input-group-lg input[type="date"],
   input[type="time"].input-lg,
   .input-group-lg > input[type="time"].form-control,
   .input-group-lg > input[type="time"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="time"].btn,
-  .comentarios
+  .rd_comentarios
   .input-group-lg > .input-group-btn > input[type="time"].comment-reply-link,
   .input-group-lg
   input[type="time"],
@@ -3106,7 +3106,7 @@ input[type="search"] {
   .input-group-lg > input[type="datetime-local"].form-control,
   .input-group-lg > input[type="datetime-local"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="datetime-local"].btn,
-  .comentarios
+  .rd_comentarios
   .input-group-lg > .input-group-btn > input[type="datetime-local"].comment-reply-link,
   .input-group-lg
   input[type="datetime-local"],
@@ -3114,7 +3114,7 @@ input[type="search"] {
   .input-group-lg > input[type="month"].form-control,
   .input-group-lg > input[type="month"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="month"].btn,
-  .comentarios
+  .rd_comentarios
   .input-group-lg > .input-group-btn > input[type="month"].comment-reply-link,
   .input-group-lg
   input[type="month"] {
@@ -3205,12 +3205,12 @@ fieldset[disabled]
   /* line 315, /var/www/html/el-barbo.es/dev/sass/bootstrap/_forms.scss */
   .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
   .input-group-lg > .form-control-static.input-group-addon,
-  .input-group-lg > .input-group-btn > .form-control-static.btn, .comentarios
-  .input-group-lg > .input-group-btn > .form-control-static.comment-reply-link, .comentarios .comment-respond
+  .input-group-lg > .input-group-btn > .form-control-static.btn, .rd_comentarios
+  .input-group-lg > .input-group-btn > .form-control-static.comment-reply-link, .rd_comentarios .comment-respond
   .input-group-lg > .input-group-btn > a.form-control-static, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
   .input-group-sm > .form-control-static.input-group-addon,
-  .input-group-sm > .input-group-btn > .form-control-static.btn, .comentarios
-  .input-group-sm > .input-group-btn > .form-control-static.comment-reply-link, .comentarios .comment-respond
+  .input-group-sm > .input-group-btn > .form-control-static.btn, .rd_comentarios
+  .input-group-sm > .input-group-btn > .form-control-static.comment-reply-link, .rd_comentarios .comment-respond
   .input-group-sm > .input-group-btn > a.form-control-static {
     padding-left: 0;
     padding-right: 0; }
@@ -3218,8 +3218,8 @@ fieldset[disabled]
 /* line 71, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_forms.scss */
 .input-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
-.input-group-sm > .input-group-btn > .btn, .comentarios
-.input-group-sm > .input-group-btn > .comment-reply-link, .comentarios .comment-respond
+.input-group-sm > .input-group-btn > .btn, .rd_comentarios
+.input-group-sm > .input-group-btn > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-sm > .input-group-btn > a {
   height: 36px;
   padding: 5px 10px;
@@ -3230,7 +3230,7 @@ fieldset[disabled]
 /* line 79, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_forms.scss */
 select.input-sm, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
-.input-group-sm > .input-group-btn > select.btn, .comentarios
+.input-group-sm > .input-group-btn > select.btn, .rd_comentarios
 .input-group-sm > .input-group-btn > select.comment-reply-link {
   height: 36px;
   line-height: 36px; }
@@ -3238,13 +3238,13 @@ select.input-sm, .input-group-sm > select.form-control,
 /* line 84, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_forms.scss */
 textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-group-sm > textarea.input-group-addon,
-.input-group-sm > .input-group-btn > textarea.btn, .comentarios
+.input-group-sm > .input-group-btn > textarea.btn, .rd_comentarios
 .input-group-sm > .input-group-btn > textarea.comment-reply-link,
 select[multiple].input-sm,
 .input-group-sm > select[multiple].form-control,
 .input-group-sm > select[multiple].input-group-addon,
 .input-group-sm > .input-group-btn > select[multiple].btn,
-.comentarios
+.rd_comentarios
 .input-group-sm > .input-group-btn > select[multiple].comment-reply-link {
   height: auto; }
 
@@ -3277,8 +3277,8 @@ select[multiple].input-sm,
 /* line 71, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_forms.scss */
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
-.input-group-lg > .input-group-btn > .btn, .comentarios
-.input-group-lg > .input-group-btn > .comment-reply-link, .comentarios .comment-respond
+.input-group-lg > .input-group-btn > .btn, .rd_comentarios
+.input-group-lg > .input-group-btn > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-lg > .input-group-btn > a {
   height: 53px;
   padding: 10px 16px;
@@ -3289,7 +3289,7 @@ select[multiple].input-sm,
 /* line 79, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_forms.scss */
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
-.input-group-lg > .input-group-btn > select.btn, .comentarios
+.input-group-lg > .input-group-btn > select.btn, .rd_comentarios
 .input-group-lg > .input-group-btn > select.comment-reply-link {
   height: 53px;
   line-height: 53px; }
@@ -3297,13 +3297,13 @@ select.input-lg, .input-group-lg > select.form-control,
 /* line 84, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_forms.scss */
 textarea.input-lg, .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
-.input-group-lg > .input-group-btn > textarea.btn, .comentarios
+.input-group-lg > .input-group-btn > textarea.btn, .rd_comentarios
 .input-group-lg > .input-group-btn > textarea.comment-reply-link,
 select[multiple].input-lg,
 .input-group-lg > select[multiple].form-control,
 .input-group-lg > select[multiple].input-group-addon,
 .input-group-lg > .input-group-btn > select[multiple].btn,
-.comentarios
+.rd_comentarios
 .input-group-lg > .input-group-btn > select[multiple].comment-reply-link {
   height: auto; }
 
@@ -3356,8 +3356,8 @@ select[multiple].input-lg,
 /* line 410, /var/www/html/el-barbo.es/dev/sass/bootstrap/_forms.scss */
 .input-lg + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
 .input-group-lg > .input-group-addon + .form-control-feedback,
-.input-group-lg > .input-group-btn > .btn + .form-control-feedback, .comentarios
-.input-group-lg > .input-group-btn > .comment-reply-link + .form-control-feedback, .comentarios .comment-respond
+.input-group-lg > .input-group-btn > .btn + .form-control-feedback, .rd_comentarios
+.input-group-lg > .input-group-btn > .comment-reply-link + .form-control-feedback, .rd_comentarios .comment-respond
 .input-group-lg > .input-group-btn > a + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
@@ -3368,8 +3368,8 @@ select[multiple].input-lg,
 /* line 417, /var/www/html/el-barbo.es/dev/sass/bootstrap/_forms.scss */
 .input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
-.input-group-sm > .input-group-btn > .btn + .form-control-feedback, .comentarios
-.input-group-sm > .input-group-btn > .comment-reply-link + .form-control-feedback, .comentarios .comment-respond
+.input-group-sm > .input-group-btn > .btn + .form-control-feedback, .rd_comentarios
+.input-group-sm > .input-group-btn > .comment-reply-link + .form-control-feedback, .rd_comentarios .comment-respond
 .input-group-sm > .input-group-btn > a + .form-control-feedback,
 .input-group-sm + .form-control-feedback,
 .form-group-sm .form-control + .form-control-feedback {
@@ -3594,7 +3594,7 @@ select[multiple].input-lg,
     font-size: 16px; } }
 
 /* line 9, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-.btn, .comentarios .comment-reply-link, .comentarios .comment-respond a {
+.btn, .rd_comentarios .comment-reply-link, .rd_comentarios .comment-respond a {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -3614,25 +3614,25 @@ select[multiple].input-lg,
   -ms-user-select: none;
   user-select: none; }
   /* line 26, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-  .btn:focus, .comentarios .comment-reply-link:focus, .comentarios .comment-respond a:focus, .btn.focus, .comentarios .focus.comment-reply-link, .comentarios .comment-respond a.focus, .btn:active:focus, .comentarios .comment-reply-link:active:focus, .comentarios .comment-respond a:active:focus, .btn:active.focus, .comentarios .comment-reply-link:active.focus, .comentarios .comment-respond a:active.focus, .btn.active:focus, .comentarios .active.comment-reply-link:focus, .comentarios .comment-respond a.active:focus, .btn.active.focus, .comentarios .active.focus.comment-reply-link, .comentarios .comment-respond a.active.focus {
+  .btn:focus, .rd_comentarios .comment-reply-link:focus, .rd_comentarios .comment-respond a:focus, .btn.focus, .rd_comentarios .focus.comment-reply-link, .rd_comentarios .comment-respond a.focus, .btn:active:focus, .rd_comentarios .comment-reply-link:active:focus, .rd_comentarios .comment-respond a:active:focus, .btn:active.focus, .rd_comentarios .comment-reply-link:active.focus, .rd_comentarios .comment-respond a:active.focus, .btn.active:focus, .rd_comentarios .active.comment-reply-link:focus, .rd_comentarios .comment-respond a.active:focus, .btn.active.focus, .rd_comentarios .active.focus.comment-reply-link, .rd_comentarios .comment-respond a.active.focus {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   /* line 32, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-  .btn:hover, .comentarios .comment-reply-link:hover, .comentarios .comment-respond a:hover, .btn:focus, .comentarios .comment-reply-link:focus, .comentarios .comment-respond a:focus, .btn.focus, .comentarios .focus.comment-reply-link, .comentarios .comment-respond a.focus {
+  .btn:hover, .rd_comentarios .comment-reply-link:hover, .rd_comentarios .comment-respond a:hover, .btn:focus, .rd_comentarios .comment-reply-link:focus, .rd_comentarios .comment-respond a:focus, .btn.focus, .rd_comentarios .focus.comment-reply-link, .rd_comentarios .comment-respond a.focus {
     color: #333;
     text-decoration: none; }
   /* line 39, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-  .btn:active, .comentarios .comment-reply-link:active, .comentarios .comment-respond a:active, .btn.active, .comentarios .active.comment-reply-link, .comentarios .comment-respond a.active {
+  .btn:active, .rd_comentarios .comment-reply-link:active, .rd_comentarios .comment-respond a:active, .btn.active, .rd_comentarios .active.comment-reply-link, .rd_comentarios .comment-respond a.active {
     outline: 0;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
   /* line 46, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-  .btn.disabled, .comentarios .disabled.comment-reply-link, .comentarios .comment-respond a.disabled, .btn[disabled], .comentarios [disabled].comment-reply-link, .comentarios .comment-respond a[disabled],
+  .btn.disabled, .rd_comentarios .disabled.comment-reply-link, .rd_comentarios .comment-respond a.disabled, .btn[disabled], .rd_comentarios [disabled].comment-reply-link, .rd_comentarios .comment-respond a[disabled],
   fieldset[disabled] .btn,
-  fieldset[disabled] .comentarios .comment-reply-link, .comentarios
+  fieldset[disabled] .rd_comentarios .comment-reply-link, .rd_comentarios
   fieldset[disabled] .comment-reply-link,
-  fieldset[disabled] .comentarios .comment-respond a, .comentarios .comment-respond
+  fieldset[disabled] .rd_comentarios .comment-respond a, .rd_comentarios .comment-respond
   fieldset[disabled] a {
     cursor: not-allowed;
     opacity: 0.65;
@@ -3641,67 +3641,67 @@ select[multiple].input-lg,
     box-shadow: none; }
 
 /* line 58, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-a.btn.disabled, .comentarios a.disabled.comment-reply-link, .comentarios .comment-respond a.disabled,
+a.btn.disabled, .rd_comentarios a.disabled.comment-reply-link, .rd_comentarios .comment-respond a.disabled,
 fieldset[disabled] a.btn,
-fieldset[disabled] .comentarios a.comment-reply-link, .comentarios
+fieldset[disabled] .rd_comentarios a.comment-reply-link, .rd_comentarios
 fieldset[disabled] a.comment-reply-link,
-fieldset[disabled] .comentarios .comment-respond a, .comentarios .comment-respond
+fieldset[disabled] .rd_comentarios .comment-respond a, .rd_comentarios .comment-respond
 fieldset[disabled] a {
   pointer-events: none; }
 
 /* line 68, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-.btn-default, .comentarios .comment-reply-link {
+.btn-default, .rd_comentarios .comment-reply-link {
   color: #333;
   background-color: #fff;
   border-color: #ccc; }
   /* line 11, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_buttons.scss */
-  .btn-default:focus, .comentarios .comment-reply-link:focus, .btn-default.focus, .comentarios .focus.comment-reply-link {
+  .btn-default:focus, .rd_comentarios .comment-reply-link:focus, .btn-default.focus, .rd_comentarios .focus.comment-reply-link {
     color: #333;
     background-color: #e6e6e6;
     border-color: #8c8c8c; }
   /* line 17, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_buttons.scss */
-  .btn-default:hover, .comentarios .comment-reply-link:hover {
+  .btn-default:hover, .rd_comentarios .comment-reply-link:hover {
     color: #333;
     background-color: #e6e6e6;
     border-color: #adadad; }
   /* line 22, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_buttons.scss */
-  .btn-default:active, .comentarios .comment-reply-link:active, .btn-default.active, .comentarios .active.comment-reply-link,
-  .open > .btn-default.dropdown-toggle, .comentarios
+  .btn-default:active, .rd_comentarios .comment-reply-link:active, .btn-default.active, .rd_comentarios .active.comment-reply-link,
+  .open > .btn-default.dropdown-toggle, .rd_comentarios
   .open > .dropdown-toggle.comment-reply-link {
     color: #333;
     background-color: #e6e6e6;
     border-color: #adadad; }
     /* line 29, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_buttons.scss */
-    .btn-default:active:hover, .comentarios .comment-reply-link:active:hover, .btn-default:active:focus, .comentarios .comment-reply-link:active:focus, .btn-default:active.focus, .comentarios .comment-reply-link:active.focus, .btn-default.active:hover, .comentarios .active.comment-reply-link:hover, .btn-default.active:focus, .comentarios .active.comment-reply-link:focus, .btn-default.active.focus, .comentarios .active.focus.comment-reply-link,
-    .open > .btn-default.dropdown-toggle:hover, .comentarios
+    .btn-default:active:hover, .rd_comentarios .comment-reply-link:active:hover, .btn-default:active:focus, .rd_comentarios .comment-reply-link:active:focus, .btn-default:active.focus, .rd_comentarios .comment-reply-link:active.focus, .btn-default.active:hover, .rd_comentarios .active.comment-reply-link:hover, .btn-default.active:focus, .rd_comentarios .active.comment-reply-link:focus, .btn-default.active.focus, .rd_comentarios .active.focus.comment-reply-link,
+    .open > .btn-default.dropdown-toggle:hover, .rd_comentarios
     .open > .dropdown-toggle.comment-reply-link:hover,
-    .open > .btn-default.dropdown-toggle:focus, .comentarios
+    .open > .btn-default.dropdown-toggle:focus, .rd_comentarios
     .open > .dropdown-toggle.comment-reply-link:focus,
-    .open > .btn-default.dropdown-toggle.focus, .comentarios
+    .open > .btn-default.dropdown-toggle.focus, .rd_comentarios
     .open > .dropdown-toggle.focus.comment-reply-link {
       color: #333;
       background-color: #d4d4d4;
       border-color: #8c8c8c; }
   /* line 37, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_buttons.scss */
-  .btn-default:active, .comentarios .comment-reply-link:active, .btn-default.active, .comentarios .active.comment-reply-link,
-  .open > .btn-default.dropdown-toggle, .comentarios
+  .btn-default:active, .rd_comentarios .comment-reply-link:active, .btn-default.active, .rd_comentarios .active.comment-reply-link,
+  .open > .btn-default.dropdown-toggle, .rd_comentarios
   .open > .dropdown-toggle.comment-reply-link {
     background-image: none; }
   /* line 45, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_buttons.scss */
-  .btn-default.disabled:hover, .comentarios .disabled.comment-reply-link:hover, .btn-default.disabled:focus, .comentarios .disabled.comment-reply-link:focus, .btn-default.disabled.focus, .comentarios .disabled.focus.comment-reply-link, .btn-default[disabled]:hover, .comentarios [disabled].comment-reply-link:hover, .btn-default[disabled]:focus, .comentarios [disabled].comment-reply-link:focus, .btn-default[disabled].focus, .comentarios [disabled].focus.comment-reply-link,
+  .btn-default.disabled:hover, .rd_comentarios .disabled.comment-reply-link:hover, .btn-default.disabled:focus, .rd_comentarios .disabled.comment-reply-link:focus, .btn-default.disabled.focus, .rd_comentarios .disabled.focus.comment-reply-link, .btn-default[disabled]:hover, .rd_comentarios [disabled].comment-reply-link:hover, .btn-default[disabled]:focus, .rd_comentarios [disabled].comment-reply-link:focus, .btn-default[disabled].focus, .rd_comentarios [disabled].focus.comment-reply-link,
   fieldset[disabled] .btn-default:hover,
-  fieldset[disabled] .comentarios .comment-reply-link:hover, .comentarios
+  fieldset[disabled] .rd_comentarios .comment-reply-link:hover, .rd_comentarios
   fieldset[disabled] .comment-reply-link:hover,
   fieldset[disabled] .btn-default:focus,
-  fieldset[disabled] .comentarios .comment-reply-link:focus, .comentarios
+  fieldset[disabled] .rd_comentarios .comment-reply-link:focus, .rd_comentarios
   fieldset[disabled] .comment-reply-link:focus,
   fieldset[disabled] .btn-default.focus,
-  fieldset[disabled] .comentarios .focus.comment-reply-link, .comentarios
+  fieldset[disabled] .rd_comentarios .focus.comment-reply-link, .rd_comentarios
   fieldset[disabled] .focus.comment-reply-link {
     background-color: #fff;
     border-color: #ccc; }
   /* line 53, /var/www/html/el-barbo.es/dev/sass/bootstrap/mixins/_buttons.scss */
-  .btn-default .badge, .comentarios .comment-reply-link .badge {
+  .btn-default .badge, .rd_comentarios .comment-reply-link .badge {
     color: #fff;
     background-color: #333; }
 
@@ -3957,21 +3957,21 @@ fieldset[disabled] a {
     text-decoration: none; }
 
 /* line 135, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-.btn-lg, .btn-group-lg > .btn, .comentarios .btn-group-lg > .comment-reply-link, .comentarios .comment-respond .btn-group-lg > a {
+.btn-lg, .btn-group-lg > .btn, .rd_comentarios .btn-group-lg > .comment-reply-link, .rd_comentarios .comment-respond .btn-group-lg > a {
   padding: 10px 16px;
   font-size: 23px;
   line-height: 1.3333333;
   border-radius: 0px; }
 
 /* line 139, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-.btn-sm, .btn-group-sm > .btn, .comentarios .btn-group-sm > .comment-reply-link, .comentarios .comment-respond .btn-group-sm > a {
+.btn-sm, .btn-group-sm > .btn, .rd_comentarios .btn-group-sm > .comment-reply-link, .rd_comentarios .comment-respond .btn-group-sm > a {
   padding: 5px 10px;
   font-size: 16px;
   line-height: 1.5;
   border-radius: 0px; }
 
 /* line 143, /var/www/html/el-barbo.es/dev/sass/bootstrap/_buttons.scss */
-.btn-xs, .btn-group-xs > .btn, .comentarios .comment-reply-link, .comentarios .comment-respond a {
+.btn-xs, .btn-group-xs > .btn, .rd_comentarios .comment-reply-link, .rd_comentarios .comment-respond a {
   padding: 1px 5px;
   font-size: 16px;
   line-height: 1.5;
@@ -4189,39 +4189,39 @@ tbody.collapse.in {
   display: inline-block;
   vertical-align: middle; }
   /* line 11, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-  .btn-group > .btn, .comentarios .btn-group > .comment-reply-link, .comentarios .comment-respond .btn-group > a,
-  .btn-group-vertical > .btn, .comentarios
-  .btn-group-vertical > .comment-reply-link, .comentarios .comment-respond
+  .btn-group > .btn, .rd_comentarios .btn-group > .comment-reply-link, .rd_comentarios .comment-respond .btn-group > a,
+  .btn-group-vertical > .btn, .rd_comentarios
+  .btn-group-vertical > .comment-reply-link, .rd_comentarios .comment-respond
   .btn-group-vertical > a {
     position: relative;
     float: left; }
     /* line 15, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-    .btn-group > .btn:hover, .comentarios .btn-group > .comment-reply-link:hover, .comentarios .comment-respond .btn-group > a:hover, .btn-group > .btn:focus, .comentarios .btn-group > .comment-reply-link:focus, .comentarios .comment-respond .btn-group > a:focus, .btn-group > .btn:active, .comentarios .btn-group > .comment-reply-link:active, .comentarios .comment-respond .btn-group > a:active, .btn-group > .btn.active, .comentarios .btn-group > .active.comment-reply-link, .comentarios .comment-respond .btn-group > a.active,
-    .btn-group-vertical > .btn:hover, .comentarios
-    .btn-group-vertical > .comment-reply-link:hover, .comentarios .comment-respond
+    .btn-group > .btn:hover, .rd_comentarios .btn-group > .comment-reply-link:hover, .rd_comentarios .comment-respond .btn-group > a:hover, .btn-group > .btn:focus, .rd_comentarios .btn-group > .comment-reply-link:focus, .rd_comentarios .comment-respond .btn-group > a:focus, .btn-group > .btn:active, .rd_comentarios .btn-group > .comment-reply-link:active, .rd_comentarios .comment-respond .btn-group > a:active, .btn-group > .btn.active, .rd_comentarios .btn-group > .active.comment-reply-link, .rd_comentarios .comment-respond .btn-group > a.active,
+    .btn-group-vertical > .btn:hover, .rd_comentarios
+    .btn-group-vertical > .comment-reply-link:hover, .rd_comentarios .comment-respond
     .btn-group-vertical > a:hover,
-    .btn-group-vertical > .btn:focus, .comentarios
-    .btn-group-vertical > .comment-reply-link:focus, .comentarios .comment-respond
+    .btn-group-vertical > .btn:focus, .rd_comentarios
+    .btn-group-vertical > .comment-reply-link:focus, .rd_comentarios .comment-respond
     .btn-group-vertical > a:focus,
-    .btn-group-vertical > .btn:active, .comentarios
-    .btn-group-vertical > .comment-reply-link:active, .comentarios .comment-respond
+    .btn-group-vertical > .btn:active, .rd_comentarios
+    .btn-group-vertical > .comment-reply-link:active, .rd_comentarios .comment-respond
     .btn-group-vertical > a:active,
-    .btn-group-vertical > .btn.active, .comentarios
-    .btn-group-vertical > .active.comment-reply-link, .comentarios .comment-respond
+    .btn-group-vertical > .btn.active, .rd_comentarios
+    .btn-group-vertical > .active.comment-reply-link, .rd_comentarios .comment-respond
     .btn-group-vertical > a.active {
       z-index: 2; }
 
 /* line 26, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group .btn + .btn, .btn-group .comentarios .comment-reply-link + .btn, .comentarios .btn-group .comment-reply-link + .btn, .btn-group .comentarios .comment-respond a + .btn, .comentarios .comment-respond .btn-group a + .btn, .btn-group .comentarios .btn + .comment-reply-link, .comentarios .btn-group .btn + .comment-reply-link, .btn-group .comentarios .comment-reply-link + .comment-reply-link, .comentarios .btn-group .comment-reply-link + .comment-reply-link, .btn-group .comentarios .comment-respond a + .comment-reply-link, .comentarios .comment-respond .btn-group a + .comment-reply-link, .btn-group .comentarios .comment-respond .btn + a, .comentarios .comment-respond .btn-group .btn + a, .btn-group .comentarios .comment-respond .comment-reply-link + a, .comentarios .btn-group .comment-respond .comment-reply-link + a, .comentarios .comment-respond .btn-group .comment-reply-link + a, .btn-group .comentarios .comment-respond a + a, .comentarios .comment-respond .btn-group a + a,
+.btn-group .btn + .btn, .btn-group .rd_comentarios .comment-reply-link + .btn, .rd_comentarios .btn-group .comment-reply-link + .btn, .btn-group .rd_comentarios .comment-respond a + .btn, .rd_comentarios .comment-respond .btn-group a + .btn, .btn-group .rd_comentarios .btn + .comment-reply-link, .rd_comentarios .btn-group .btn + .comment-reply-link, .btn-group .rd_comentarios .comment-reply-link + .comment-reply-link, .rd_comentarios .btn-group .comment-reply-link + .comment-reply-link, .btn-group .rd_comentarios .comment-respond a + .comment-reply-link, .rd_comentarios .comment-respond .btn-group a + .comment-reply-link, .btn-group .rd_comentarios .comment-respond .btn + a, .rd_comentarios .comment-respond .btn-group .btn + a, .btn-group .rd_comentarios .comment-respond .comment-reply-link + a, .rd_comentarios .btn-group .comment-respond .comment-reply-link + a, .rd_comentarios .comment-respond .btn-group .comment-reply-link + a, .btn-group .rd_comentarios .comment-respond a + a, .rd_comentarios .comment-respond .btn-group a + a,
 .btn-group .btn + .btn-group,
-.btn-group .comentarios .comment-reply-link + .btn-group, .comentarios
+.btn-group .rd_comentarios .comment-reply-link + .btn-group, .rd_comentarios
 .btn-group .comment-reply-link + .btn-group,
-.btn-group .comentarios .comment-respond a + .btn-group, .comentarios .comment-respond
+.btn-group .rd_comentarios .comment-respond a + .btn-group, .rd_comentarios .comment-respond
 .btn-group a + .btn-group,
 .btn-group .btn-group + .btn,
-.btn-group .comentarios .btn-group + .comment-reply-link, .comentarios
+.btn-group .rd_comentarios .btn-group + .comment-reply-link, .rd_comentarios
 .btn-group .btn-group + .comment-reply-link,
-.btn-group .comentarios .comment-respond .btn-group + a, .comentarios .comment-respond
+.btn-group .rd_comentarios .comment-respond .btn-group + a, .rd_comentarios .comment-respond
 .btn-group .btn-group + a,
 .btn-group .btn-group + .btn-group {
   margin-left: -1px; }
@@ -4237,30 +4237,30 @@ tbody.collapse.in {
   .btn-toolbar:after {
     clear: both; }
   /* line 39, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-  .btn-toolbar .btn, .btn-toolbar .comentarios .comment-reply-link, .comentarios .btn-toolbar .comment-reply-link, .btn-toolbar .comentarios .comment-respond a, .comentarios .comment-respond .btn-toolbar a,
+  .btn-toolbar .btn, .btn-toolbar .rd_comentarios .comment-reply-link, .rd_comentarios .btn-toolbar .comment-reply-link, .btn-toolbar .rd_comentarios .comment-respond a, .rd_comentarios .comment-respond .btn-toolbar a,
   .btn-toolbar .btn-group,
   .btn-toolbar .input-group {
     float: left; }
   /* line 44, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-  .btn-toolbar > .btn, .comentarios .btn-toolbar > .comment-reply-link, .comentarios .comment-respond .btn-toolbar > a,
+  .btn-toolbar > .btn, .rd_comentarios .btn-toolbar > .comment-reply-link, .rd_comentarios .comment-respond .btn-toolbar > a,
   .btn-toolbar > .btn-group,
   .btn-toolbar > .input-group {
     margin-left: 5px; }
 
 /* line 51, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .comentarios .btn-group > .comment-reply-link:not(:first-child):not(:last-child):not(.dropdown-toggle), .comentarios .comment-respond .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .rd_comentarios .btn-group > .comment-reply-link:not(:first-child):not(:last-child):not(.dropdown-toggle), .rd_comentarios .comment-respond .btn-group > a:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0; }
 
 /* line 56, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn:first-child, .comentarios .btn-group > .comment-reply-link:first-child, .comentarios .comment-respond .btn-group > a:first-child {
+.btn-group > .btn:first-child, .rd_comentarios .btn-group > .comment-reply-link:first-child, .rd_comentarios .comment-respond .btn-group > a:first-child {
   margin-left: 0; }
   /* line 58, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .comentarios .btn-group > .comment-reply-link:first-child:not(:last-child):not(.dropdown-toggle), .comentarios .comment-respond .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle) {
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .rd_comentarios .btn-group > .comment-reply-link:first-child:not(:last-child):not(.dropdown-toggle), .rd_comentarios .comment-respond .btn-group > a:first-child:not(:last-child):not(.dropdown-toggle) {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0; }
 
 /* line 63, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn:last-child:not(:first-child), .comentarios .btn-group > .comment-reply-link:last-child:not(:first-child), .comentarios .comment-respond .btn-group > a:last-child:not(:first-child),
+.btn-group > .btn:last-child:not(:first-child), .rd_comentarios .btn-group > .comment-reply-link:last-child:not(:first-child), .rd_comentarios .comment-respond .btn-group > a:last-child:not(:first-child),
 .btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
@@ -4270,17 +4270,17 @@ tbody.collapse.in {
   float: left; }
 
 /* line 72, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .comentarios .btn-group > .btn-group:not(:first-child):not(:last-child) > .comment-reply-link, .comentarios .comment-respond .btn-group > .btn-group:not(:first-child):not(:last-child) > a {
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .rd_comentarios .btn-group > .btn-group:not(:first-child):not(:last-child) > .comment-reply-link, .rd_comentarios .comment-respond .btn-group > .btn-group:not(:first-child):not(:last-child) > a {
   border-radius: 0; }
 
 /* line 76, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, .comentarios .btn-group > .btn-group:first-child:not(:last-child) > .comment-reply-link:last-child, .comentarios .comment-respond .btn-group > .btn-group:first-child:not(:last-child) > a:last-child,
+.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, .rd_comentarios .btn-group > .btn-group:first-child:not(:last-child) > .comment-reply-link:last-child, .rd_comentarios .comment-respond .btn-group > .btn-group:first-child:not(:last-child) > a:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
 /* line 81, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child, .comentarios .btn-group > .btn-group:last-child:not(:first-child) > .comment-reply-link:first-child, .comentarios .comment-respond .btn-group > .btn-group:last-child:not(:first-child) > a:first-child {
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child, .rd_comentarios .btn-group > .btn-group:last-child:not(:first-child) > .comment-reply-link:first-child, .rd_comentarios .comment-respond .btn-group > .btn-group:last-child:not(:first-child) > a:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -4290,12 +4290,12 @@ tbody.collapse.in {
   outline: 0; }
 
 /* line 105, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn + .dropdown-toggle, .comentarios .btn-group > .comment-reply-link + .dropdown-toggle, .comentarios .comment-respond .btn-group > a + .dropdown-toggle {
+.btn-group > .btn + .dropdown-toggle, .rd_comentarios .btn-group > .comment-reply-link + .dropdown-toggle, .rd_comentarios .comment-respond .btn-group > a + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px; }
 
 /* line 109, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .comentarios .btn-group-lg.btn-group > .comment-reply-link + .dropdown-toggle, .comentarios .comment-respond .btn-group-lg.btn-group > a + .dropdown-toggle {
+.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .rd_comentarios .btn-group-lg.btn-group > .comment-reply-link + .dropdown-toggle, .rd_comentarios .comment-respond .btn-group-lg.btn-group > a + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px; }
 
@@ -4309,23 +4309,23 @@ tbody.collapse.in {
     box-shadow: none; }
 
 /* line 127, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn .caret, .comentarios .comment-reply-link .caret, .comentarios .comment-respond a .caret {
+.btn .caret, .rd_comentarios .comment-reply-link .caret, .rd_comentarios .comment-respond a .caret {
   margin-left: 0; }
 
 /* line 131, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-lg .caret, .btn-group-lg > .btn .caret, .comentarios .btn-group-lg > .comment-reply-link .caret, .comentarios .comment-respond .btn-group-lg > a .caret {
+.btn-lg .caret, .btn-group-lg > .btn .caret, .rd_comentarios .btn-group-lg > .comment-reply-link .caret, .rd_comentarios .comment-respond .btn-group-lg > a .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0; }
 
 /* line 136, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .comentarios .btn-group-lg > .comment-reply-link .caret, .comentarios .dropup .btn-group-lg > .comment-reply-link .caret, .dropup .comentarios .comment-respond .btn-group-lg > a .caret, .comentarios .comment-respond .dropup .btn-group-lg > a .caret {
+.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .rd_comentarios .btn-group-lg > .comment-reply-link .caret, .rd_comentarios .dropup .btn-group-lg > .comment-reply-link .caret, .dropup .rd_comentarios .comment-respond .btn-group-lg > a .caret, .rd_comentarios .comment-respond .dropup .btn-group-lg > a .caret {
   border-width: 0 5px 5px; }
 
 /* line 145, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn, .comentarios .btn-group-vertical > .comment-reply-link, .comentarios .comment-respond .btn-group-vertical > a,
+.btn-group-vertical > .btn, .rd_comentarios .btn-group-vertical > .comment-reply-link, .rd_comentarios .comment-respond .btn-group-vertical > a,
 .btn-group-vertical > .btn-group,
-.btn-group-vertical > .btn-group > .btn, .comentarios
-.btn-group-vertical > .btn-group > .comment-reply-link, .comentarios .comment-respond
+.btn-group-vertical > .btn-group > .btn, .rd_comentarios
+.btn-group-vertical > .btn-group > .comment-reply-link, .rd_comentarios .comment-respond
 .btn-group-vertical > .btn-group > a {
   display: block;
   float: none;
@@ -4342,51 +4342,51 @@ tbody.collapse.in {
   clear: both; }
 
 /* line 157, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group > .btn, .comentarios .btn-group-vertical > .btn-group > .comment-reply-link, .comentarios .comment-respond .btn-group-vertical > .btn-group > a {
+.btn-group-vertical > .btn-group > .btn, .rd_comentarios .btn-group-vertical > .btn-group > .comment-reply-link, .rd_comentarios .comment-respond .btn-group-vertical > .btn-group > a {
   float: none; }
 
 /* line 162, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn + .btn, .comentarios .btn-group-vertical > .comment-reply-link + .btn, .comentarios .comment-respond .btn-group-vertical > a + .btn, .comentarios .btn-group-vertical > .btn + .comment-reply-link, .comentarios .btn-group-vertical > .comment-reply-link + .comment-reply-link, .comentarios .comment-respond .btn-group-vertical > a + .comment-reply-link, .comentarios .comment-respond .btn-group-vertical > .btn + a, .comentarios .comment-respond .btn-group-vertical > .comment-reply-link + a, .comentarios .comment-respond .btn-group-vertical > a + a,
-.btn-group-vertical > .btn + .btn-group, .comentarios
-.btn-group-vertical > .comment-reply-link + .btn-group, .comentarios .comment-respond
+.btn-group-vertical > .btn + .btn, .rd_comentarios .btn-group-vertical > .comment-reply-link + .btn, .rd_comentarios .comment-respond .btn-group-vertical > a + .btn, .rd_comentarios .btn-group-vertical > .btn + .comment-reply-link, .rd_comentarios .btn-group-vertical > .comment-reply-link + .comment-reply-link, .rd_comentarios .comment-respond .btn-group-vertical > a + .comment-reply-link, .rd_comentarios .comment-respond .btn-group-vertical > .btn + a, .rd_comentarios .comment-respond .btn-group-vertical > .comment-reply-link + a, .rd_comentarios .comment-respond .btn-group-vertical > a + a,
+.btn-group-vertical > .btn + .btn-group, .rd_comentarios
+.btn-group-vertical > .comment-reply-link + .btn-group, .rd_comentarios .comment-respond
 .btn-group-vertical > a + .btn-group,
-.btn-group-vertical > .btn-group + .btn, .comentarios
-.btn-group-vertical > .btn-group + .comment-reply-link, .comentarios .comment-respond
+.btn-group-vertical > .btn-group + .btn, .rd_comentarios
+.btn-group-vertical > .btn-group + .comment-reply-link, .rd_comentarios .comment-respond
 .btn-group-vertical > .btn-group + a,
 .btn-group-vertical > .btn-group + .btn-group {
   margin-top: -1px;
   margin-left: 0; }
 
 /* line 172, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:not(:first-child):not(:last-child), .comentarios .btn-group-vertical > .comment-reply-link:not(:first-child):not(:last-child), .comentarios .comment-respond .btn-group-vertical > a:not(:first-child):not(:last-child) {
+.btn-group-vertical > .btn:not(:first-child):not(:last-child), .rd_comentarios .btn-group-vertical > .comment-reply-link:not(:first-child):not(:last-child), .rd_comentarios .comment-respond .btn-group-vertical > a:not(:first-child):not(:last-child) {
   border-radius: 0; }
 
 /* line 175, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:first-child:not(:last-child), .comentarios .btn-group-vertical > .comment-reply-link:first-child:not(:last-child), .comentarios .comment-respond .btn-group-vertical > a:first-child:not(:last-child) {
+.btn-group-vertical > .btn:first-child:not(:last-child), .rd_comentarios .btn-group-vertical > .comment-reply-link:first-child:not(:last-child), .rd_comentarios .comment-respond .btn-group-vertical > a:first-child:not(:last-child) {
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
 /* line 179, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:last-child:not(:first-child), .comentarios .btn-group-vertical > .comment-reply-link:last-child:not(:first-child), .comentarios .comment-respond .btn-group-vertical > a:last-child:not(:first-child) {
+.btn-group-vertical > .btn:last-child:not(:first-child), .rd_comentarios .btn-group-vertical > .comment-reply-link:last-child:not(:first-child), .rd_comentarios .comment-respond .btn-group-vertical > a:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px; }
 
 /* line 184, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .comentarios .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .comment-reply-link, .comentarios .comment-respond .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > a {
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .rd_comentarios .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .comment-reply-link, .rd_comentarios .comment-respond .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > a {
   border-radius: 0; }
 
 /* line 188, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, .comentarios .btn-group-vertical > .btn-group:first-child:not(:last-child) > .comment-reply-link:last-child, .comentarios .comment-respond .btn-group-vertical > .btn-group:first-child:not(:last-child) > a:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, .rd_comentarios .btn-group-vertical > .btn-group:first-child:not(:last-child) > .comment-reply-link:last-child, .rd_comentarios .comment-respond .btn-group-vertical > .btn-group:first-child:not(:last-child) > a:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
 /* line 193, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .comentarios .btn-group-vertical > .btn-group:last-child:not(:first-child) > .comment-reply-link:first-child, .comentarios .comment-respond .btn-group-vertical > .btn-group:last-child:not(:first-child) > a:first-child {
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .rd_comentarios .btn-group-vertical > .btn-group:last-child:not(:first-child) > .comment-reply-link:first-child, .rd_comentarios .comment-respond .btn-group-vertical > .btn-group:last-child:not(:first-child) > a:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
@@ -4397,28 +4397,28 @@ tbody.collapse.in {
   table-layout: fixed;
   border-collapse: separate; }
   /* line 206, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-  .btn-group-justified > .btn, .comentarios .btn-group-justified > .comment-reply-link, .comentarios .comment-respond .btn-group-justified > a,
+  .btn-group-justified > .btn, .rd_comentarios .btn-group-justified > .comment-reply-link, .rd_comentarios .comment-respond .btn-group-justified > a,
   .btn-group-justified > .btn-group {
     float: none;
     display: table-cell;
     width: 1%; }
   /* line 212, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-  .btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .comentarios .comment-reply-link, .comentarios .btn-group-justified > .btn-group .comment-reply-link, .btn-group-justified > .btn-group .comentarios .comment-respond a, .comentarios .comment-respond .btn-group-justified > .btn-group a {
+  .btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .rd_comentarios .comment-reply-link, .rd_comentarios .btn-group-justified > .btn-group .comment-reply-link, .btn-group-justified > .btn-group .rd_comentarios .comment-respond a, .rd_comentarios .comment-respond .btn-group-justified > .btn-group a {
     width: 100%; }
   /* line 216, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
   .btn-group-justified > .btn-group .dropdown-menu {
     left: auto; }
 
 /* line 237, /var/www/html/el-barbo.es/dev/sass/bootstrap/_button-groups.scss */
-[data-toggle="buttons"] > .btn input[type="radio"], .comentarios [data-toggle="buttons"] > .comment-reply-link input[type="radio"], .comentarios .comment-respond [data-toggle="buttons"] > a input[type="radio"],
-[data-toggle="buttons"] > .btn input[type="checkbox"], .comentarios
-[data-toggle="buttons"] > .comment-reply-link input[type="checkbox"], .comentarios .comment-respond
+[data-toggle="buttons"] > .btn input[type="radio"], .rd_comentarios [data-toggle="buttons"] > .comment-reply-link input[type="radio"], .rd_comentarios .comment-respond [data-toggle="buttons"] > a input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="checkbox"], .rd_comentarios
+[data-toggle="buttons"] > .comment-reply-link input[type="checkbox"], .rd_comentarios .comment-respond
 [data-toggle="buttons"] > a input[type="checkbox"],
-[data-toggle="buttons"] > .btn-group > .btn input[type="radio"], .comentarios
-[data-toggle="buttons"] > .btn-group > .comment-reply-link input[type="radio"], .comentarios .comment-respond
+[data-toggle="buttons"] > .btn-group > .btn input[type="radio"], .rd_comentarios
+[data-toggle="buttons"] > .btn-group > .comment-reply-link input[type="radio"], .rd_comentarios .comment-respond
 [data-toggle="buttons"] > .btn-group > a input[type="radio"],
-[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"], .comentarios
-[data-toggle="buttons"] > .btn-group > .comment-reply-link input[type="checkbox"], .comentarios .comment-respond
+[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"], .rd_comentarios
+[data-toggle="buttons"] > .btn-group > .comment-reply-link input[type="checkbox"], .rd_comentarios .comment-respond
 [data-toggle="buttons"] > .btn-group > a input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
@@ -4477,8 +4477,8 @@ tbody.collapse.in {
   /* line 89, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
   .input-group-addon.input-sm,
   .input-group-sm > .input-group-addon,
-  .input-group-sm > .input-group-btn > .input-group-addon.btn, .comentarios
-  .input-group-sm > .input-group-btn > .input-group-addon.comment-reply-link, .comentarios .comment-respond
+  .input-group-sm > .input-group-btn > .input-group-addon.btn, .rd_comentarios
+  .input-group-sm > .input-group-btn > .input-group-addon.comment-reply-link, .rd_comentarios .comment-respond
   .input-group-sm > .input-group-btn > a.input-group-addon {
     padding: 5px 10px;
     font-size: 16px;
@@ -4486,8 +4486,8 @@ tbody.collapse.in {
   /* line 94, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
   .input-group-addon.input-lg,
   .input-group-lg > .input-group-addon,
-  .input-group-lg > .input-group-btn > .input-group-addon.btn, .comentarios
-  .input-group-lg > .input-group-btn > .input-group-addon.comment-reply-link, .comentarios .comment-respond
+  .input-group-lg > .input-group-btn > .input-group-addon.btn, .rd_comentarios
+  .input-group-lg > .input-group-btn > .input-group-addon.comment-reply-link, .rd_comentarios .comment-respond
   .input-group-lg > .input-group-btn > a.input-group-addon {
     padding: 10px 16px;
     font-size: 23px;
@@ -4500,18 +4500,18 @@ tbody.collapse.in {
 /* line 108, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
-.input-group-btn:first-child > .btn, .comentarios
-.input-group-btn:first-child > .comment-reply-link, .comentarios .comment-respond
+.input-group-btn:first-child > .btn, .rd_comentarios
+.input-group-btn:first-child > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-btn:first-child > a,
-.input-group-btn:first-child > .btn-group > .btn, .comentarios
-.input-group-btn:first-child > .btn-group > .comment-reply-link, .comentarios .comment-respond
+.input-group-btn:first-child > .btn-group > .btn, .rd_comentarios
+.input-group-btn:first-child > .btn-group > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-btn:first-child > .btn-group > a,
 .input-group-btn:first-child > .dropdown-toggle,
-.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .comentarios
-.input-group-btn:last-child > .comment-reply-link:not(:last-child):not(.dropdown-toggle), .comentarios .comment-respond
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .rd_comentarios
+.input-group-btn:last-child > .comment-reply-link:not(:last-child):not(.dropdown-toggle), .rd_comentarios .comment-respond
 .input-group-btn:last-child > a:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .comentarios
-.input-group-btn:last-child > .btn-group:not(:last-child) > .comment-reply-link, .comentarios .comment-respond
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .rd_comentarios
+.input-group-btn:last-child > .btn-group:not(:last-child) > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-btn:last-child > .btn-group:not(:last-child) > a {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
@@ -4523,18 +4523,18 @@ tbody.collapse.in {
 /* line 120, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
-.input-group-btn:last-child > .btn, .comentarios
-.input-group-btn:last-child > .comment-reply-link, .comentarios .comment-respond
+.input-group-btn:last-child > .btn, .rd_comentarios
+.input-group-btn:last-child > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-btn:last-child > a,
-.input-group-btn:last-child > .btn-group > .btn, .comentarios
-.input-group-btn:last-child > .btn-group > .comment-reply-link, .comentarios .comment-respond
+.input-group-btn:last-child > .btn-group > .btn, .rd_comentarios
+.input-group-btn:last-child > .btn-group > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-btn:last-child > .btn-group > a,
 .input-group-btn:last-child > .dropdown-toggle,
-.input-group-btn:first-child > .btn:not(:first-child), .comentarios
-.input-group-btn:first-child > .comment-reply-link:not(:first-child), .comentarios .comment-respond
+.input-group-btn:first-child > .btn:not(:first-child), .rd_comentarios
+.input-group-btn:first-child > .comment-reply-link:not(:first-child), .rd_comentarios .comment-respond
 .input-group-btn:first-child > a:not(:first-child),
-.input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .comentarios
-.input-group-btn:first-child > .btn-group:not(:first-child) > .comment-reply-link, .comentarios .comment-respond
+.input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .rd_comentarios
+.input-group-btn:first-child > .btn-group:not(:first-child) > .comment-reply-link, .rd_comentarios .comment-respond
 .input-group-btn:first-child > .btn-group:not(:first-child) > a {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
@@ -4549,20 +4549,20 @@ tbody.collapse.in {
   font-size: 0;
   white-space: nowrap; }
   /* line 144, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
-  .input-group-btn > .btn, .comentarios .input-group-btn > .comment-reply-link, .comentarios .comment-respond .input-group-btn > a {
+  .input-group-btn > .btn, .rd_comentarios .input-group-btn > .comment-reply-link, .rd_comentarios .comment-respond .input-group-btn > a {
     position: relative; }
     /* line 146, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
-    .input-group-btn > .btn + .btn, .comentarios .input-group-btn > .comment-reply-link + .btn, .comentarios .comment-respond .input-group-btn > a + .btn, .comentarios .input-group-btn > .btn + .comment-reply-link, .comentarios .input-group-btn > .comment-reply-link + .comment-reply-link, .comentarios .comment-respond .input-group-btn > a + .comment-reply-link, .comentarios .comment-respond .input-group-btn > .btn + a, .comentarios .comment-respond .input-group-btn > .comment-reply-link + a, .comentarios .comment-respond .input-group-btn > a + a {
+    .input-group-btn > .btn + .btn, .rd_comentarios .input-group-btn > .comment-reply-link + .btn, .rd_comentarios .comment-respond .input-group-btn > a + .btn, .rd_comentarios .input-group-btn > .btn + .comment-reply-link, .rd_comentarios .input-group-btn > .comment-reply-link + .comment-reply-link, .rd_comentarios .comment-respond .input-group-btn > a + .comment-reply-link, .rd_comentarios .comment-respond .input-group-btn > .btn + a, .rd_comentarios .comment-respond .input-group-btn > .comment-reply-link + a, .rd_comentarios .comment-respond .input-group-btn > a + a {
       margin-left: -1px; }
     /* line 150, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
-    .input-group-btn > .btn:hover, .comentarios .input-group-btn > .comment-reply-link:hover, .comentarios .comment-respond .input-group-btn > a:hover, .input-group-btn > .btn:focus, .comentarios .input-group-btn > .comment-reply-link:focus, .comentarios .comment-respond .input-group-btn > a:focus, .input-group-btn > .btn:active, .comentarios .input-group-btn > .comment-reply-link:active, .comentarios .comment-respond .input-group-btn > a:active {
+    .input-group-btn > .btn:hover, .rd_comentarios .input-group-btn > .comment-reply-link:hover, .rd_comentarios .comment-respond .input-group-btn > a:hover, .input-group-btn > .btn:focus, .rd_comentarios .input-group-btn > .comment-reply-link:focus, .rd_comentarios .comment-respond .input-group-btn > a:focus, .input-group-btn > .btn:active, .rd_comentarios .input-group-btn > .comment-reply-link:active, .rd_comentarios .comment-respond .input-group-btn > a:active {
       z-index: 2; }
   /* line 159, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
-  .input-group-btn:first-child > .btn, .comentarios .input-group-btn:first-child > .comment-reply-link, .comentarios .comment-respond .input-group-btn:first-child > a,
+  .input-group-btn:first-child > .btn, .rd_comentarios .input-group-btn:first-child > .comment-reply-link, .rd_comentarios .comment-respond .input-group-btn:first-child > a,
   .input-group-btn:first-child > .btn-group {
     margin-right: -1px; }
   /* line 165, /var/www/html/el-barbo.es/dev/sass/bootstrap/_input-groups.scss */
-  .input-group-btn:last-child > .btn, .comentarios .input-group-btn:last-child > .comment-reply-link, .comentarios .comment-respond .input-group-btn:last-child > a,
+  .input-group-btn:last-child > .btn, .rd_comentarios .input-group-btn:last-child > .comment-reply-link, .rd_comentarios .comment-respond .input-group-btn:last-child > a,
   .input-group-btn:last-child > .btn-group {
     z-index: 2;
     margin-left: -1px; }
@@ -5039,11 +5039,11 @@ tbody.collapse.in {
   margin-top: 5.5px;
   margin-bottom: 5.5px; }
   /* line 346, /var/www/html/el-barbo.es/dev/sass/bootstrap/_navbar.scss */
-  .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .comentarios .btn-group-sm > .navbar-btn.comment-reply-link, .comentarios .comment-respond .btn-group-sm > a.navbar-btn {
+  .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .rd_comentarios .btn-group-sm > .navbar-btn.comment-reply-link, .rd_comentarios .comment-respond .btn-group-sm > a.navbar-btn {
     margin-top: 7px;
     margin-bottom: 7px; }
   /* line 349, /var/www/html/el-barbo.es/dev/sass/bootstrap/_navbar.scss */
-  .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .comentarios .navbar-btn.comment-reply-link, .comentarios .comment-respond a.navbar-btn {
+  .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .rd_comentarios .navbar-btn.comment-reply-link, .rd_comentarios .comment-respond a.navbar-btn {
     margin-top: 14px;
     margin-bottom: 14px; }
 
@@ -5417,7 +5417,7 @@ tbody.collapse.in {
   .label:empty {
     display: none; }
   /* line 25, /var/www/html/el-barbo.es/dev/sass/bootstrap/_labels.scss */
-  .btn .label, .comentarios .comment-reply-link .label, .comentarios .comment-respond a .label {
+  .btn .label, .rd_comentarios .comment-reply-link .label, .rd_comentarios .comment-respond a .label {
     position: relative;
     top: -1px; }
 
@@ -5487,13 +5487,13 @@ a.label:hover, a.label:focus {
   .badge:empty {
     display: none; }
   /* line 27, /var/www/html/el-barbo.es/dev/sass/bootstrap/_badges.scss */
-  .btn .badge, .comentarios .comment-reply-link .badge, .comentarios .comment-respond a .badge {
+  .btn .badge, .rd_comentarios .comment-reply-link .badge, .rd_comentarios .comment-respond a .badge {
     position: relative;
     top: -1px; }
   /* line 32, /var/www/html/el-barbo.es/dev/sass/bootstrap/_badges.scss */
-  .btn-xs .badge, .btn-group-xs > .btn .badge, .comentarios .comment-reply-link .badge, .comentarios .comment-respond a .badge,
-  .btn-group-xs > .btn .badge, .comentarios
-  .btn-group-xs > .comment-reply-link .badge, .comentarios .comment-respond
+  .btn-xs .badge, .btn-group-xs > .btn .badge, .rd_comentarios .comment-reply-link .badge, .rd_comentarios .comment-respond a .badge,
+  .btn-group-xs > .btn .badge, .rd_comentarios
+  .btn-group-xs > .comment-reply-link .badge, .rd_comentarios .comment-respond
   .btn-group-xs > a .badge {
     top: 0;
     padding: 1px 5px; }
@@ -6587,11 +6587,11 @@ button.close {
   .modal-footer:after {
     clear: both; }
   /* line 110, /var/www/html/el-barbo.es/dev/sass/bootstrap/_modals.scss */
-  .modal-footer .btn + .btn, .modal-footer .comentarios .comment-reply-link + .btn, .comentarios .modal-footer .comment-reply-link + .btn, .modal-footer .comentarios .comment-respond a + .btn, .comentarios .comment-respond .modal-footer a + .btn, .modal-footer .comentarios .btn + .comment-reply-link, .comentarios .modal-footer .btn + .comment-reply-link, .modal-footer .comentarios .comment-reply-link + .comment-reply-link, .comentarios .modal-footer .comment-reply-link + .comment-reply-link, .modal-footer .comentarios .comment-respond a + .comment-reply-link, .comentarios .comment-respond .modal-footer a + .comment-reply-link, .modal-footer .comentarios .comment-respond .btn + a, .comentarios .comment-respond .modal-footer .btn + a, .modal-footer .comentarios .comment-respond .comment-reply-link + a, .comentarios .modal-footer .comment-respond .comment-reply-link + a, .comentarios .comment-respond .modal-footer .comment-reply-link + a, .modal-footer .comentarios .comment-respond a + a, .comentarios .comment-respond .modal-footer a + a {
+  .modal-footer .btn + .btn, .modal-footer .rd_comentarios .comment-reply-link + .btn, .rd_comentarios .modal-footer .comment-reply-link + .btn, .modal-footer .rd_comentarios .comment-respond a + .btn, .rd_comentarios .comment-respond .modal-footer a + .btn, .modal-footer .rd_comentarios .btn + .comment-reply-link, .rd_comentarios .modal-footer .btn + .comment-reply-link, .modal-footer .rd_comentarios .comment-reply-link + .comment-reply-link, .rd_comentarios .modal-footer .comment-reply-link + .comment-reply-link, .modal-footer .rd_comentarios .comment-respond a + .comment-reply-link, .rd_comentarios .comment-respond .modal-footer a + .comment-reply-link, .modal-footer .rd_comentarios .comment-respond .btn + a, .rd_comentarios .comment-respond .modal-footer .btn + a, .modal-footer .rd_comentarios .comment-respond .comment-reply-link + a, .rd_comentarios .modal-footer .comment-respond .comment-reply-link + a, .rd_comentarios .comment-respond .modal-footer .comment-reply-link + a, .modal-footer .rd_comentarios .comment-respond a + a, .rd_comentarios .comment-respond .modal-footer a + a {
     margin-left: 5px;
     margin-bottom: 0; }
   /* line 115, /var/www/html/el-barbo.es/dev/sass/bootstrap/_modals.scss */
-  .modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .comentarios .comment-reply-link + .btn, .comentarios .modal-footer .btn-group .comment-reply-link + .btn, .modal-footer .btn-group .comentarios .comment-respond a + .btn, .comentarios .comment-respond .modal-footer .btn-group a + .btn, .modal-footer .btn-group .comentarios .btn + .comment-reply-link, .comentarios .modal-footer .btn-group .btn + .comment-reply-link, .modal-footer .btn-group .comentarios .comment-reply-link + .comment-reply-link, .comentarios .modal-footer .btn-group .comment-reply-link + .comment-reply-link, .modal-footer .btn-group .comentarios .comment-respond a + .comment-reply-link, .comentarios .comment-respond .modal-footer .btn-group a + .comment-reply-link, .modal-footer .btn-group .comentarios .comment-respond .btn + a, .comentarios .comment-respond .modal-footer .btn-group .btn + a, .modal-footer .btn-group .comentarios .comment-respond .comment-reply-link + a, .comentarios .modal-footer .btn-group .comment-respond .comment-reply-link + a, .comentarios .comment-respond .modal-footer .btn-group .comment-reply-link + a, .modal-footer .btn-group .comentarios .comment-respond a + a, .comentarios .comment-respond .modal-footer .btn-group a + a {
+  .modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .rd_comentarios .comment-reply-link + .btn, .rd_comentarios .modal-footer .btn-group .comment-reply-link + .btn, .modal-footer .btn-group .rd_comentarios .comment-respond a + .btn, .rd_comentarios .comment-respond .modal-footer .btn-group a + .btn, .modal-footer .btn-group .rd_comentarios .btn + .comment-reply-link, .rd_comentarios .modal-footer .btn-group .btn + .comment-reply-link, .modal-footer .btn-group .rd_comentarios .comment-reply-link + .comment-reply-link, .rd_comentarios .modal-footer .btn-group .comment-reply-link + .comment-reply-link, .modal-footer .btn-group .rd_comentarios .comment-respond a + .comment-reply-link, .rd_comentarios .comment-respond .modal-footer .btn-group a + .comment-reply-link, .modal-footer .btn-group .rd_comentarios .comment-respond .btn + a, .rd_comentarios .comment-respond .modal-footer .btn-group .btn + a, .modal-footer .btn-group .rd_comentarios .comment-respond .comment-reply-link + a, .rd_comentarios .modal-footer .btn-group .comment-respond .comment-reply-link + a, .rd_comentarios .comment-respond .modal-footer .btn-group .comment-reply-link + a, .modal-footer .btn-group .rd_comentarios .comment-respond a + a, .rd_comentarios .comment-respond .modal-footer .btn-group a + a {
     margin-left: -1px; }
   /* line 119, /var/www/html/el-barbo.es/dev/sass/bootstrap/_modals.scss */
   .modal-footer .btn-block + .btn-block {
@@ -7084,7 +7084,7 @@ button.close {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   /* line 229, /var/www/html/el-barbo.es/dev/sass/bootstrap/_carousel.scss */
-  .carousel-caption .btn, .carousel-caption .comentarios .comment-reply-link, .comentarios .carousel-caption .comment-reply-link, .carousel-caption .comentarios .comment-respond a, .comentarios .comment-respond .carousel-caption a {
+  .carousel-caption .btn, .carousel-caption .rd_comentarios .comment-reply-link, .rd_comentarios .carousel-caption .comment-reply-link, .carousel-caption .rd_comentarios .comment-respond a, .rd_comentarios .comment-respond .carousel-caption a {
     text-shadow: none; }
 
 @media screen and (min-width: 768px) {
@@ -7387,30 +7387,41 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-/* line 4, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-.panel.rd_titular-seccion {
-  margin-bottom: 0px; }
-  /* line 5, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-  .panel.rd_titular-seccion .panel-heading {
-    border: none; }
-
 /* line 12, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-.panel h1, .panel h2 {
-  margin-top: 0px; }
+nav#rd_main-menu {
+  padding-top: 10px;
+  border-bottom: 1px solid #536700; }
+  /* line 17, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  nav#rd_main-menu .rd_form_buscar {
+    display: block; }
+  /* line 21, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  nav#rd_main-menu .current-menu-item {
+    background: #536700; }
+    /* line 24, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+    nav#rd_main-menu .current-menu-item a {
+      color: white; }
 
-/* line 17, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-.panel h1 {
-  font-size: 27px; }
+/* line 36, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.panel {
+  overflow: hidden; }
+  /* line 41, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .panel.rd_titular-seccion {
+    margin-bottom: 0px; }
+    /* line 42, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+    .panel.rd_titular-seccion .panel-heading {
+      border: none; }
+  /* line 49, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .panel h1, .panel h2 {
+    margin-top: 0px; }
+  /* line 58, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .panel img {
+    max-width: 100% !important; }
 
-/* line 21, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-.panel img {
-  max-width: 100% !important; }
-
-/* line 28, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 65, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .rd_cabecera {
   margin-bottom: 30px; }
 
-/* line 33, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 70, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .rd_logo {
   display: block;
   position: absolute;
@@ -7426,19 +7437,431 @@ button.close {
   background-size: 140%;
   box-shadow: 0px 0px 6px #fff; }
 
-/* line 59, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-.comentarios label {
+/* line 93, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.social {
+  font-size: 3em; }
+
+/* line 101, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.rd_entrada-relacionada p {
+  margin-top: 10px;
+  width: 107%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/* line 114, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.rd_comentarios label {
   display: block;
   clear: both; }
 
-/* line 65, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-.comentarios .comment-body p {
-  font-size: 1.5em; }
-
-/* line 71, /var/www/html/el-barbo.es/dev/sass/_default.scss */
-.comentarios .comment-reply-link, .comentarios .comment-respond a {
+/* line 119, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+.rd_comentarios .comment-reply-link, .rd_comentarios .comment-respond a {
   margin-bottom: 30px; }
 
-/* line 86, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+/* line 134, /var/www/html/el-barbo.es/dev/sass/_default.scss */
 .label a {
   color: white; }
+
+@media only screen {
+  /* line 158, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .rd_form_buscar {
+    margin-top: 0px; } }
+
+@media only screen and (max-width: 991px) {
+  /* line 165, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .rd_entrada-relacionada {
+    max-height: 200px; }
+    /* line 169, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+    .rd_entrada-relacionada img {
+      width: 100%;
+      height: 105px; } }
+
+@media only screen {
+  /* line 178, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .rd_entrada-relacionada {
+    max-height: 260px; }
+    /* line 182, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+    .rd_entrada-relacionada img {
+      width: 100%;
+      height: 160px; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 190, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .rd_form_buscar {
+    float: right; } }
+
+@media only screen and (min-width: 992px) {
+  /* line 198, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .rd_entrada-relacionada:last-child {
+    display: none; }
+  /* line 202, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+  .rd_entrada-relacionada {
+    max-height: 200px; }
+    /* line 206, /var/www/html/el-barbo.es/dev/sass/_default.scss */
+    .rd_entrada-relacionada img {
+      width: 100%;
+      height: 110px; } }
+
+@font-face {
+  font-family: 'Glyphicons Social';
+  src: url("fonts/glyphicons/glyphicons-social-regular.eot");
+  src: url("fonts/glyphicons/glyphicons-social-regular.eot?#iefix") format("embedded-opentype"), url("fonts/glyphicons/glyphicons-social-regular.woff2") format("woff2"), url("fonts/glyphicons/glyphicons-social-regular.woff") format("woff"), url("fonts/glyphicons/glyphicons-social-regular.ttf") format("truetype"), url("fonts/glyphicons/glyphicons-social-regular.svg#glyphicons_socialregular") format("svg"); }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Social';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.x05 {
+  font-size: 12px; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.x2 {
+  font-size: 48px; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.x3 {
+  font-size: 72px; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.x4 {
+  font-size: 96px; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.x5 {
+  font-size: 120px; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.light:before {
+  color: #f2f2f2; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.drop:before {
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.3); }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.flipv {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.rotate180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social.rotate270 {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-pinterest:before {
+  content: "\E001"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-dropbox:before {
+  content: "\E002"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-google-plus:before {
+  content: "\E003"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-jolicloud:before {
+  content: "\E004"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-yahoo:before {
+  content: "\E005"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-blogger:before {
+  content: "\E006"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-picasa:before {
+  content: "\E007"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-amazon:before {
+  content: "\E008"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-tumblr:before {
+  content: "\E009"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-wordpress:before {
+  content: "\E010"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-instapaper:before {
+  content: "\E011"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-evernote:before {
+  content: "\E012"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-xing:before {
+  content: "\E013"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-e-mail-envelope:before {
+  content: "\E014"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-dribbble:before {
+  content: "\E015"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-deviantart:before {
+  content: "\E016"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-read-it-later:before {
+  content: "\E017"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-linked-in:before {
+  content: "\E018"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-gmail:before {
+  content: "\E019"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-pinboard:before {
+  content: "\E020"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-behance:before {
+  content: "\E021"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-github:before {
+  content: "\E022"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-youtube:before {
+  content: "\E023"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-open-id:before {
+  content: "\E024"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-foursquare:before {
+  content: "\E025"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-quora:before {
+  content: "\E026"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-badoo:before {
+  content: "\E027"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-spotify:before {
+  content: "\E028"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-stumbleupon:before {
+  content: "\E029"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-readability:before {
+  content: "\E030"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-facebook:before {
+  content: "\E031"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-twitter:before {
+  content: "\E032"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-instagram:before {
+  content: "\E033"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-posterous-spaces:before {
+  content: "\E034"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-vimeo:before {
+  content: "\E035"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-flickr:before {
+  content: "\E036"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-last-fm:before {
+  content: "\E037"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-rss:before {
+  content: "\E038"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-skype:before {
+  content: "\E039"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-e-mail:before {
+  content: "\E040"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-vine:before {
+  content: "\E041"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-myspace:before {
+  content: "\E042"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-goodreads:before {
+  content: "\E043"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-apple:before {
+  content: "\E044"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-windows:before {
+  content: "\E045"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-yelp:before {
+  content: "\E046"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-playstation:before {
+  content: "\E047"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-xbox:before {
+  content: "\E048"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-android:before {
+  content: "\E049"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-ios:before {
+  content: "\E050"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-wikipedia:before {
+  content: "\E051"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-pocket:before {
+  content: "\E052"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-steam:before {
+  content: "\E053"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-soundcloud:before {
+  content: "\E054"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-slideshare:before {
+  content: "\E055"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-netflix:before {
+  content: "\E056"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-paypal:before {
+  content: "\E057"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-google-drive:before {
+  content: "\E058"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-linux-foundation:before {
+  content: "\E059"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-ebay:before {
+  content: "\E060"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-bitbucket:before {
+  content: "\E061"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-whatsapp:before {
+  content: "\E062"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-buffer:before {
+  content: "\E063"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-medium:before {
+  content: "\E064"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-stackoverflow:before {
+  content: "\E065"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-linux:before {
+  content: "\E066"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-vk:before {
+  content: "\E067"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-snapchat:before {
+  content: "\E068"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-etsy:before {
+  content: "\E069"; }
+
+/* line 1, /var/www/html/el-barbo.es/dev/sass/glyphicons/css/_glyphicons-social.scss */
+.social-stackexchange:before {
+  content: "\E070"; }

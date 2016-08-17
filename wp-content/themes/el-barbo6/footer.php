@@ -1,6 +1,6 @@
 <footer>
 	<div class="container">
-		<nav class="navbar navbar-default">
+		<nav id="rd_secondary-menu" class="navbar navbar-default" role="navigation">
 			<?php 
 				wp_nav_menu( array( 
 					'theme_location' => 'inferior',
@@ -22,6 +22,6 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 </body>
 </html>

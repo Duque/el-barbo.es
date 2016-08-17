@@ -3,15 +3,15 @@
 
 <div class="container">
 	
-	<div class="panel panel-default">
-		<div class="panel-body">
-			<h2>Categoría: <?php single_cat_title(); ?></h2>		
-		</div>
-	</div>
-
-  <div class="row">	
+	<div class="row">	
     <section class="col-xs-12 col-sm-8">
       
+      <div class="panel panel-default rd_titular-seccion">
+			  <div class="panel-heading">
+			    <h1><small>Artículos de pesca para la etiqueta </small><br> <?php single_cat_title(); ?></h1>
+			  </div>
+			</div>
+
       <!-- Listado de posts -->
       <?php if ( have_posts() ) : ?>
         <?php while ( have_posts() ) : the_post();  ?>
