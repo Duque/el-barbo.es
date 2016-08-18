@@ -1,4 +1,3 @@
-<!-- Archivo de cabecera global de Wordpress -->
 <?php get_header(); ?>
 
 <div class="container">

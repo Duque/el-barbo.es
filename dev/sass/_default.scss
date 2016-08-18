@@ -64,6 +64,10 @@ nav#rd_secondary-menu {
 //CABECERA
 .rd_cabecera {
 	margin-bottom: $grid-gutter-width;
+
+	img {
+		max-width: 100%;	
+	}
 }
 
 //Logo
@@ -88,6 +92,10 @@ nav#rd_secondary-menu {
 //Importamos clases de bootstrap en las de Wordpress
 .list-group .menu-item {
 	@extend .list-group-item;
+}
+.widget {
+    display: block;
+    margin-bottom: 20px;
 }
 
 .social {

@@ -42,6 +42,28 @@ function mis_widgets(){
        'after_title'   => '</h3>',
    )
  );
+
+ register_sidebar(
+   array(
+       'name'          => __( 'Header' ),
+       'id'            => 'header',
+       'before_widget' => '<div class="widget">',
+       'after_widget'  => '</div>',
+       'before_title'  => '',
+       'after_title'   => '',
+   )
+ );
+
+ register_sidebar(
+   array(
+       'name'          => __( 'Post Title' ),
+       'id'            => 'post-title',
+       'before_widget' => '<div class="widget">',
+       'after_widget'  => '</div>',
+       'before_title'  => '',
+       'after_title'   => '',
+   )
+ );
 }
 add_action('init','mis_widgets');
 ?>

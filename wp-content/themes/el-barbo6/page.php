@@ -1,8 +1,7 @@
-<!-- Archivo de cabecera global de Wordpress -->
 <?php get_header(); ?>
 <!-- Contenido de página de inicio -->
 <?php if ( have_posts() ) : the_post(); ?>
-  <section class="container">
+  <div class="container">
 
   		<div class="row">	
   	  	<article class="col-xs-12 col-sm-8">
@@ -12,6 +11,8 @@
             	<h1>
                   <?php the_title() ?>
               </h1>
+
+              <?php dynamic_sidebar('post-title'); ?>
 
               <?php the_content() ?>
             </div>
@@ -29,7 +30,7 @@
       	</aside>
 		  </div>    
 
-</section>
+</div>
 
 <!-- Archivo de pié global de Wordpress -->
 <?php get_footer(); ?>

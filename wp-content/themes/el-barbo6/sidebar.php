@@ -7,7 +7,7 @@
 		?>
 
 
-<?php dynamic_sidebar('sidebar'); ?>
+
 
 <ul class="list-inline text-center">
   <li>
@@ -25,6 +25,10 @@
   		<span class="social social-youtube" aria-hidden="true"></span>
   	</a>
   </li>
+
 </ul>
+
+<?php dynamic_sidebar('sidebar'); ?>
+
 
 </nav>

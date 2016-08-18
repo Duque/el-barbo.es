@@ -8,7 +8,8 @@
 
   	<section class="container">
 
-  		<?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
+  		<?php if(have_posts()) : ?>
+        <?php while(have_posts()) : the_post(); ?>
   	  <div class="row">	
         <!-- marcado de datos artículo -->
   	  	<article class="col-sm-8" itemscope itemtype="http://schema.org/Article">
@@ -20,22 +21,24 @@
                 <?php the_title() ?>
               </h1>
 
+              <?php dynamic_sidebar('post-title'); ?>
+
               <?php the_content() ?>
             </div>
+
             <div class="panel-footer">
               <small> Autor: 
-                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-<span itemprop="name">
-                  <?php the_author_posts_link() ?> </span></span> el <span itemprop="datePublished" content="2016-08-12"><?php the_time('j/m/Y') ?></span> en categorías: <?php the_category(', '); ?> </small>  
-              <?php include 'includes/etiquetas.php'; ?>
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><?php the_author_posts_link() ?> </span></span> el <span itemprop="datePublished" content="2016-08-12"><?php the_time('j/m/Y') ?></span> en categorías: <?php the_category(', '); ?> </small>  
+
+                <?php include 'includes/etiquetas.php'; ?>
             </div>
             
           </div>
 
-          <meta itemprop="image" content="<?php the_post_thumbnail_url(); ?>">
-          <meta itemprop="url" content="<?php the_permalink(); ?>">
-          <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
           
+        <p>
+          Estás en: <small><span itemprop="url"><?php the_permalink(); ?></span></small>
+        </p>  
 
  		   	<?php endwhile; ?>
 
