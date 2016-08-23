@@ -64,6 +64,17 @@ function mis_widgets(){
        'after_title'   => '',
    )
  );
+
+ register_sidebar(
+   array(
+       'name'          => __( 'Post footer' ),
+       'id'            => 'post-footer',
+       'before_widget' => '<div class="widget">',
+       'after_widget'  => '</div>',
+       'before_title'  => '',
+       'after_title'   => '',
+   )
+ );
 }
 add_action('init','mis_widgets');
 ?>

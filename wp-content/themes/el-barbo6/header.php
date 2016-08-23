@@ -22,7 +22,7 @@
 <body>
 
 	<!-- Analytics -->
-	<?php include_once("analyticstracking.php") ?>
+	<?php include_once("includes/analyticstracking.php") ?>
 	<!-- -->
 
 	<header>
@@ -41,18 +41,24 @@
 
 				<div class="collapse navbar-collapse" id="rd_menu-principal-collapse" Sitemscope itemtype="http://schema.org/ItemList">
 
-					<form class="form-inline rd_form_buscar">
+					<form action="http://el-barbo.es/busqueda" id="cse-search-box" class="form-inline rd_form_buscar">
 		        <div class="form-group">
 		        	
 		        	<div class="input-group">
-					      <input type="search" size="15" class="form-control" placeholder="Buscar">
-					      <div class="input-group-addon">
-					      	<a href="#">Buscar</a>
-					      </div>
+					      <input type="hidden" name="cx" value="partner-pub-6047461292435716:3689787185" />
+						    <input type="hidden" name="cof" value="FORID:10" />
+						    <input type="hidden" name="ie" value="UTF-8" />
+						    <input type="text" name="q" class="form-control" />
+				      	
 					    </div>
+					    <button type="submit" name="sa" class="btn btn-default">Buscar</button>
 	 	  		  </div>
 	  		    
 		    	</form>	
+
+
+					<script type="text/javascript" src="http://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
+
 
 					<?php 
 						wp_nav_menu( array( 

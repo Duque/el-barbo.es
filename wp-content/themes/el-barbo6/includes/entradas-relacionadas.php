@@ -18,7 +18,7 @@
                             }else{
                       ?>
 
-                      <img src="<?php bloginfo('template_url'); ?>/images/nombre-imagen-defecto.png" />
+                      <img src="<?php bloginfo('template_url'); ?>/images/logo.jpg" />
                       <?php } ?>
                       <p><?php the_title(); ?></p>
 

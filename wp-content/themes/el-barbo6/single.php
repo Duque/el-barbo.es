@@ -21,9 +21,9 @@
                 <?php the_title() ?>
               </h1>
 
-              <?php dynamic_sidebar('post-title'); ?>
+              <?php dynamic_.3 the_content() ?>77777ñp
 
-              <?php the_content() ?>
+              <?php dynamic_sidebar('post-footer'); ?>
             </div>
 
             <div class="panel-footer">
@@ -36,10 +36,6 @@
           </div>
 
           
-        <p>
-          Estás en: <small><span itemprop="url"><?php the_permalink(); ?></span></small>
-        </p>  
-
  		   	<?php endwhile; ?>
 
         <?php include 'includes/entradas-relacionadas.php'; ?>
