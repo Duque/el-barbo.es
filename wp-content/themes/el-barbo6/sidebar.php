@@ -32,3 +32,8 @@
 
 
 </nav>
+
+<div class="textwidget">
+  <!-- Linkspanel.com, rentabilizar blog -->
+  <?php include 'includes/linkspanel.php'; ?>  
+</div>

@@ -89,6 +89,29 @@ nav#rd_secondary-menu {
 
 
 //ASIDE 
+aside {
+
+	.textwidget {
+		//Mínimo de 3 en 3
+		a {
+			display: block;
+			padding-left: $grid-gutter-width / 2;
+			padding-right: $grid-gutter-width / 2;
+			padding-top: $grid-gutter-width / 3;
+			padding-bottom: $grid-gutter-width / 3;
+			background: white;
+			border: 1px solid $panel-inner-border;
+		}
+
+		/*a:first-child {
+			border-bottom: none;
+		}
+		a:last-child {
+			border-top: none;
+		}*/
+	}
+}
+
 //Importamos clases de bootstrap en las de Wordpress
 .list-group .menu-item {
 	@extend .list-group-item;
