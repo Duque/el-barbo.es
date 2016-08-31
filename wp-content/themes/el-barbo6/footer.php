@@ -12,7 +12,7 @@
 		</nav>
 		<br>
 			
-			<p class="text-center"><br><br><small>El-Barbo.es © <?php echo date("Y") ?></small></p>
+			<p class="text-center"><br><br><small><?php bloginfo('name'); ?> © <?php echo date("Y") ?></small></p>
 	</div>
 
 </footer>

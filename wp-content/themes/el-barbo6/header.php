@@ -80,12 +80,12 @@
 			<a href="http://el-barbo.es" title="Ir a la página de inicio">
 				
 				<h1 class="rd_logo">
-					Pesca a mosca, El-Barbo.es
+					<?php bloginfo('name'); ?>
 				</h1>
 			</a>
 
 			<div class="rd_cabecera">	
-				<img src="http://el-barbo.es/wp-content/uploads/2016/08/2016-agosto.jpg" alt="Imagen no disponible de la Cabecera del sitio web http://El-Barbo.es">
+				<img src="<?php echo get_template_directory_uri() ?>/images/cabecera.jpg" alt="Imagen no disponible de la Cabecera del sitio web http://El-Barbo.es">
 			</div>
 
 			<?php dynamic_sidebar('header'); ?>
