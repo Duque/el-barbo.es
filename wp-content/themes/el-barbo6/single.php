@@ -21,7 +21,8 @@
                 <?php the_title() ?>
               </h1>
 
-              <?php dynamic_.3 the_content() ?>77777ñp
+              <?php dynamic_sidebar('post-title'); ?>
+              <?php the_content() ?>
 
               <?php dynamic_sidebar('post-footer'); ?>
             </div>

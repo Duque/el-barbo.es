@@ -77,7 +77,7 @@
 		</nav>
 
 		<div class="container">
-			<a href="http://el-barbo.es" title="Ir a la página de inicio">
+			<a href="<?php echo get_site_url(); ?>" title="Ir a la página de inicio">
 				
 				<h1 class="rd_logo">
 					<?php bloginfo('name'); ?>

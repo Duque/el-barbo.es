@@ -1,7 +1,3 @@
-
-
-
-
 //MENÚS
 //Propiedades generales de los navbar
 nav {
@@ -165,6 +161,26 @@ aside {
 		color: white;
 	}
 }
+
+
+//Tablas
+.rd_tabla-precios {
+	width: 100%;
+	border: 1px solid #ccc;
+
+	tr {
+		td {
+			border: 1px solid #ccc;	
+		}
+
+		& td:last-child {
+			text-align: center;
+		}
+	}
+}
+
+
+
 
 
 //RESPONSIVE
