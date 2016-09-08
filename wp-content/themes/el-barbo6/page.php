@@ -12,8 +12,6 @@
                   <?php the_title() ?>
               </h1>
 
-              <?php dynamic_sidebar('post-title'); ?>
-
               <?php the_content() ?>
             </div>
             <!--Footer-->
