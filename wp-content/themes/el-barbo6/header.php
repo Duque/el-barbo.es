@@ -16,6 +16,9 @@
 
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+	<!-- recaptcha para contact Form 7 --> 
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
 	<?php wp_head(); ?>
 
 </head>
@@ -41,13 +44,13 @@
 
 				<div class="collapse navbar-collapse" id="rd_menu-principal-collapse" Sitemscope itemtype="http://schema.org/ItemList">
 
-					<form action="http://el-barbo.es/busqueda" id="cse-search-box" class="form-inline rd_form_buscar">
+					<form action="https://el-barbo.es/busqueda" id="cse-search-box" class="form-inline rd_form_buscar">
 		        <div class="form-group">
 		        	
 		        	<div class="input-group">
-					      <input type="hidden" name="cx" value="partner-pub-6047461292435716:3689787185" />
-						    <input type="hidden" name="cof" value="FORID:10" />
-						    <input type="hidden" name="ie" value="UTF-8" />
+					      <input type="hidden" name="cx" value="partner-pub-6047461292435716:7240198388" />
+    						<input type="hidden" name="cof" value="FORID:10" />
+    						<input type="hidden" name="ie" value="UTF-8" />
 						    <input type="text" name="q" class="form-control" />
 				      	
 					    </div>
@@ -57,7 +60,7 @@
 		    	</form>	
 
 
-					<script type="text/javascript" src="http://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
+					<script type="text/javascript" src="https://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
 
 
 					<?php 
