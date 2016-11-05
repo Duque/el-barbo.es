@@ -31,6 +31,7 @@ add_action('get_header', 'enable_threaded_comments');
 
 <?php
 //Zona de widgets
+//Ojo todos tienen clase widget, quitar o cambiar si es necesario
 function mis_widgets(){
  register_sidebar(
    array(

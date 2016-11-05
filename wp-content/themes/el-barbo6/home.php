@@ -18,6 +18,12 @@
                 </h1>
                 <?php the_content() ?>
               </div>
+              <div class="panel-footer">
+                <small> Autor: 
+                  <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><?php the_author_posts_link() ?> </span></span> el <span itemprop="datePublished" content="2016-08-12"><?php the_time('j/m/Y') ?></span> en categorías: <?php the_category(', '); ?> </small>  
+
+                  <?php include 'includes/etiquetas.php'; ?>
+              </div>
             </div>
           </article>
 

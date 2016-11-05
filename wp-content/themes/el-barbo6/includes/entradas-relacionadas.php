@@ -20,9 +20,12 @@
 
                       <img src="<?php bloginfo('template_url'); ?>/images/logo.jpg" />
                       <?php } ?>
-                      <p><?php the_title(); ?></p>
+                      
 
                     </a>         
+                  </div>
+                  <div class="panel-footer">
+                    <p><a  href="<?php the_permalink(); ?> " rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></p></a>
                   </div>
                 </div>
                 

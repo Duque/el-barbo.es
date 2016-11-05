@@ -21,6 +21,19 @@
 
 	<?php wp_head(); ?>
 
+	<!-- smartlook.com sirve para grabar comportamiento de los usuarios -->
+	<script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'd01698d15e0ea3c85ed48aaf5acf6216c09ecd86');
+	</script>
+	<!-- fin smartlook.com -->
+
+
+
 </head>
 <body>
 
@@ -42,7 +55,7 @@
 
 				</div>
 
-				<div class="collapse navbar-collapse" id="rd_menu-principal-collapse" Sitemscope itemtype="http://schema.org/ItemList">
+				<div class="collapse navbar-collapse" id="rd_menu-principal-collapse">
 
 					<form action="https://el-barbo.es/busqueda" id="cse-search-box" class="form-inline rd_form_buscar">
 		        <div class="form-group">
@@ -63,16 +76,26 @@
 					<script type="text/javascript" src="https://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
 
 
-					<?php 
+					<!-- 	Menú controlado por wordpress 
+								Se elimina porque no puedo insertar los microdatos de Google [Sitemscope itemtype="http://schema.org/ItemList"] dentro de la etiqueta <ul> del menú.
+
+								Se crea debajo el menú a mano (copiado del generado por wordpress y agregada el parametro Sitemscope)
+					-->
+					<?php /*
 						wp_nav_menu( array( 
+							'items_wrap' => '',
 							'theme_location' => 'principal',
 							'menu_class' => 'nav navbar-nav',
 							'container' => '',
 							'container_class' => ''
 						) ); 
-					?>
-
-					
+					*/ ?>
+					<ul id="menu-menu-principal" class="nav navbar-nav" itemscope itemtype="http://schema.org/ItemList">
+						<li id="menu-item-7068" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-7068"><a href="http://el-barbo.es/">Inicio</a></li>
+						<li id="menu-item-7072" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7072"><a href="https://el-barbo.es/relatos/">Relatos</a></li>
+						<li id="menu-item-7071" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7071"><a href="https://el-barbo.es/escuela-pesca/">Escuela de pesca</a></li>
+						<li id="menu-item-7070" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7070"><a href="http://el-barbo.es/videos-de-pesca/">Vídeos</a></li>
+					</ul>
 
 				</div>
 			</div>
