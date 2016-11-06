@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     sass: {
       options: {
         sourceMap: false,
-        outputStyle: 'nested debug',
+        outputStyle: 'compressed',
         sourceComments: true,
       },
       dist: {
