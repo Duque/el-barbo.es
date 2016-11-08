@@ -3,7 +3,7 @@
         <div class="row">
         
           <?php
-          $related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'orderby'=>'rand', 'numberposts' => 4, 'post__not_in' => array($post->ID) ) );
+          $related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'order'=>'DESC', 'numberposts' => 7, 'post__not_in' => array($post->ID) ) );
            
             if( $related ) foreach( $related as $post ) {
             setup_postdata($post); ?>
