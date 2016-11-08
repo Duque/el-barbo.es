@@ -11,12 +11,16 @@
   		<?php if(have_posts()) : ?>
         <?php while(have_posts()) : the_post(); ?>
   	  <div class="row">	
-        <!-- marcado de datos artículo -->
+        
+        <!-- marcado de datos - Artículo -->
   	  	<article class="col-sm-8" itemscope itemtype="http://schema.org/Article">
 
+          <!-- Cuerpo del artículo incluído título -->
       		<div class="panel panel-default">
             
+            <!-- marcado de datos - Artículo Body -->
             <div class="panel-body" itemprop="articleBody">
+              <!-- marcado de datos - Name -->
             	<h1 itemprop="name">
                 <?php the_title() ?>
               </h1>
@@ -29,9 +33,17 @@
 
             <div class="panel-footer">
               <small> Autor: 
-                <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><?php the_author_posts_link() ?> </span></span> el <span itemprop="datePublished" content="2016-08-12"><?php the_time('j/m/Y') ?></span> en categorías: <?php the_category(', '); ?> </small>  
+                <!-- marcado de datos - Autor -->
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <span itemprop="name">
+                    <?php the_author_posts_link() ?>
+                  </span>
+                </span> el 
+                <!-- marcado de datos - Fecha -->
+                <span itemprop="datePublished" content="2016-08-12"><?php the_time('j/m/Y') ?></span> en categorías: <?php the_category(', '); ?> 
+              </small>  
 
-                <?php include 'includes/etiquetas.php'; ?>
+              <?php include 'includes/etiquetas.php'; ?>
             </div>
             
           </div>
@@ -59,9 +71,5 @@
 		  </div>    
 
 </section>
-
-
-
-  
 
 <?php get_footer(); ?>
