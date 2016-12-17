@@ -1,3 +1,8 @@
+//TITULARES
+.page-header {
+	margin-top:0.7em;
+}
+
 //MENÚS
 //Propiedades generales de los navbar
 nav {
@@ -116,12 +121,15 @@ aside {
     margin-bottom: 20px;
 }
 
-.social {
-	font-size : 3em;
+
+//SINGLE.PHP
+.entrada img, .embed-responsive {
+	margin-bottom:1em;
 }
 
 
-//SINGLE.PHP
+
+
 .rd_entrada-relacionada {
 
 	p {
@@ -134,7 +142,7 @@ aside {
 
 	.panel-body {
 		padding: 0px;
-		height: 128px;
+		height: 103px;
 		overflow: hidden;
 	}
 

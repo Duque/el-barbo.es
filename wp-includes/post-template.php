@@ -310,7 +310,7 @@ function get_the_content( $more_link_text = null, $strip_teaser = false ) {
 				 * @param string $more_link_element Read More link element.
 				 * @param string $more_link_text    Read More text.
 				 */
-				$output .= apply_filters( 'the_content_more_link', ' <a href="' . get_permalink() . "#more-{$post->ID}\" class=\"more-link\">$more_link_text</a>", $more_link_text );
+				$output .= apply_filters( 'the_content_more_link', ' <a href="' . get_permalink() . "#more-{$post->ID}\" class=\"more-link btn btn-default pull-right\" title=\"Clic para leer esta entrada\" style=\"margin-top: 1em;\">Leer entrada completa</a>", $more_link_text );
 			$output = force_balance_tags( $output );
 		}
 	}

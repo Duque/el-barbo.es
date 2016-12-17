@@ -1,0 +1,62 @@
+###INI HTDINA###
+
+###INICIO REWRITE RULES###
+RewriteEngine on
+
+######INICIO NAVEGACION HTTPS######
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+######FIN DE NAVEGACION HTTPS######
+
+###FIN DE REWRITE RULES###
+
+###FIN HTDINA###
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+#MEJORAS PARA SPEED INSIGHTS
+# Especificamos cache
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 10 days"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType text/plain "access plus 1 week"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/x-icon "access plus 3 months"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 week"
+ExpiresByType text/javascript "access plus 1 week"
+ExpiresByType application/x-icon "access plus 3 months"
+</IfModule>
+
+
+
+#REGLAS RAUL DUQUE, imprescindibles seo
+
+#Elimina la categoría blog de la url (proporcionado por Dinahosting)
+Redirect 301 /blog/ https://el-barbo.es/
+
+
+#Redirecciones 301
+
+Redirect 301 /2009/07/03/chernobyl-ant-montaje-mosca-atractora https://el-barbo.es/2009/07/05/chernobyl-ant-montaje-mosca-atractora/
+Redirect 301 /2009/12/21/miga-de-pan-ficha-de-montaje https://el-barbo.es/2009/02/24/montaje-imitacion-miga-de-pan-carpas-y-barbos/
+Redirect 301 /2014/06/ https://el-barbo.es
+Redirect 301 /blog/2011/03/salmones-king-en-rio-huemules https://el-barbo.es/patagonia/
+Redirect 301 /2011/03/15/salmones-king-en-rio-huemules https://el-barbo.es/patagonia/
+Redirect 301 /2015/01/01/barbos-gigantes-el-mangar/%20target= https://el-barbo.es/2015/01/01/barbos-gigantes-el-mangar/
+Redirect 301 /2009/04/07/nueva-seccion-de-noticias/ https://el-barbo.es/noticias/
+Redirect 301 /2016/07/13/dorado-argentino-damita-pirayu/alternateURL https://el-barbo.es/2016/07/13/dorado-argentino-damita-pirayu/
+Redirect 301 /elbarbotv/ https://el-barbo.es/videos-de-pesca/
