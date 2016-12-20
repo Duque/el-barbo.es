@@ -65,6 +65,7 @@ nav#rd_secondary-menu {
 //CABECERA
 .rd_cabecera {
 	margin-bottom: $grid-gutter-width;
+	margin-top: $grid-gutter-width;
 
 	img {
 		max-width: 100%;	
@@ -237,6 +238,11 @@ $lg-max: "only screen and (max-width:none)";
 	.rd_form_buscar {
 		margin-top: 0px;			
 	}
+	.rd_boton-buscar {
+		float:right;
+	}
+	.rd_campo-buscar {
+	}
 }
 
 @media #{$sm-max} { 
@@ -260,3 +266,10 @@ $lg-max: "only screen and (max-width:none)";
 }
 
 
+//----------------
+// Típicos Raúl
+//----------------
+
+.margin-bottom0 {
+	margin-bottom:0px!important;
+}

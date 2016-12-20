@@ -71,21 +71,24 @@
 
 				<div class="collapse navbar-collapse" id="rd_menu-principal-collapse">
 
-					<form action="https://el-barbo.es/busqueda" id="cse-search-box" class="form-inline rd_form_buscar">
-		        <div class="form-group">
-		        	
-		        	<div class="input-group">
-					      <input type="hidden" name="cx" value="partner-pub-6047461292435716:7240198388" />
-    						<input type="hidden" name="cof" value="FORID:10" />
-    						<input type="hidden" name="ie" value="UTF-8" />
-						    <input type="text" name="q" class="form-control" />
-				      	
-					    </div>
-					    <button type="submit" name="sa" class="btn btn-default">Buscar</button>
-	 	  		  </div>
-	  		    
-		    	</form>	
-
+				<div class="row">
+					<div class="col-xs-12">
+						<form action="https://el-barbo.es/busqueda" id="cse-search-box" class="form-inline rd_form_buscar">
+			        <div class="form-group">
+			        	<button type="submit" name="sa" class="btn btn-default rd_boton-buscar">Buscar</button>
+			        	<div class="input-group col-xs-9 col-sm-8">
+						      <input type="hidden" name="cx" value="partner-pub-6047461292435716:7240198388" />
+	    						<input type="hidden" name="cof" value="FORID:10" />
+	    						<input type="hidden" name="ie" value="UTF-8" />
+							    <input type="text" name="q" class="form-control rd_campo-buscar" />
+					      	
+						    </div>
+						    
+		 	  		  </div>
+		  		    
+			    	</form>	
+		    	</div>
+		    </div>
 
 					<script type="text/javascript" src="https://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
 

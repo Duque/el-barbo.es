@@ -22,13 +22,13 @@ define('DB_NAME', 'el-barbo');
 define('DB_USER', 'root');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', ' ');
+define('DB_PASSWORD', 'contraseña');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
 
 /** Codificación de caracteres para la base de datos. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Cotejamiento de la base de datos. No lo modifiques si tienes dudas. */
 define('DB_COLLATE', '');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_KEY', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
-define('NONCE_SALT', 'pon aquí tu frase aleatoria'); // Cambia esto por tu frase aleatoria.
+define('AUTH_KEY', 'JvkKtB{o;L^BR@e GYFF8`g.Lm$5tNkk>zjC@+hDQ(bV3|+7q}Ubafag@E@Aw@d>');
+define('SECURE_AUTH_KEY', '87?$H.Ln^LUX`*4I-;)?<znF<HS|__c+`ON@Sw%SX%XnhkCHziA8Jr:1,(+&jhq^');
+define('LOGGED_IN_KEY', 'w/.OrZjI={L,D(54$W@y.${WkS&0|H/YN:`[roX j1qcV@*@@PV@3TkRT|c9O($Z');
+define('NONCE_KEY', 'n3mf<bNi]je}eh&pp4)kDQCkVYG1$t/fkQJ:gKIgYhs$Nw~-v8yqEKo~>s*DcSyi');
+define('AUTH_SALT', 'em<bEB>5r81bE@Oo7~jRPl>8CnT#(4@s2KiIU@u$(}*z.9qq%b2d.UWu^QN+i-Vc');
+define('SECURE_AUTH_SALT', '5M]*RFQl4p:N 7mD!ZP#KvlE =hO(5jt f8%$1|{ >WMM=A(m%bRA7ta?)l_-]kU');
+define('LOGGED_IN_SALT', ',AzhQF~p9<R{rejaC6{pOy,FpC_qmE~Yo#A<}wzsExY|-MWi!WjYMY<iwurkVvm=');
+define('NONCE_SALT', 'Izgw9.Nwm^_5m|DcHJbqoynEsA~(/{hWt*Z3XYd<]HWkM>q@n&/0zb)U 5GD=3^M');
 
 /**#@-*/
 

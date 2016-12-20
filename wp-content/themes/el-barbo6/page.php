@@ -5,9 +5,7 @@
 
   		<div class="row">	
   	  	<article class="col-xs-12">
-      		<div class="panel panel-default">
-            
-            <div class="panel-body">
+
               <div class="page-header">
             	  <h1>
                   <?php the_title() ?>
@@ -15,13 +13,6 @@
               </div>
 
               <?php the_content() ?>
-            </div>
-            <!--Footer-->
-            <div class="panel-footer">
-              
-            </div>
-            
-          </div>
 
 			<?php endif; ?>
      	</article>
